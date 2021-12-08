@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cut_copper_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:cut_copper"
+  }
+}

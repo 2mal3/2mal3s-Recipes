@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "undo_stairs",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:polished_blackstone_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:polished_blackstone",
+		"count": 3
+	}
+}

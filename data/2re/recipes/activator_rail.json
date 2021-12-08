@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "activator_rail",
+    "pattern": [
+        "/",
+        "R",
+        "G"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "R": {
+            "item": "minecraft:rail"
+        },
+        "G": {
+            "item": "minecraft:redstone_torch"
+        }
+    },
+    "result": {
+        "item": "minecraft:activator_rail",
+        "count": 1
+    }
+}

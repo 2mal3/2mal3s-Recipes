@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "undo_stairs",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:dark_oak_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:dark_oak_planks",
+		"count": 3
+	}
+}

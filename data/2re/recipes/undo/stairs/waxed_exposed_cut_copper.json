@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:waxed_exposed_cut_copper_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:waxed_exposed_cut_copper",
+    "count": 1
+  }
+}

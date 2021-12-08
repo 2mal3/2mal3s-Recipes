@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "undo_stairs",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:prismarine_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:prismarine",
+		"count": 3
+	}
+}

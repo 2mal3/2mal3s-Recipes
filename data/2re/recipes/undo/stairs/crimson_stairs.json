@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "undo_stairs",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:crimson_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:crimson_planks",
+		"count": 3
+	}
+}

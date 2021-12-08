@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "undo_stairs",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:smooth_quartz_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:smooth_quartz",
+		"count": 3
+	}
+}

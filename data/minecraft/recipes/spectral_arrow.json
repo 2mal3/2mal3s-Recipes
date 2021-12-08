@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:arrow"
+    },
+    "X": {
+      "tag": "2re:glowing"
+    }
+  },
+  "result": {
+    "item": "minecraft:spectral_arrow",
+    "count": 4
+  }
+}

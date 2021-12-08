@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "undo_stairs",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:spruce_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:spruce_planks",
+		"count": 3
+	}
+}

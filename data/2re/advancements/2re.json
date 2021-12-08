@@ -1,0 +1,17 @@
+{
+  "display": {
+    "title": "2mal3s Recipes v1.0.0",
+    "description": "<datapack description>",
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:2mal3",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

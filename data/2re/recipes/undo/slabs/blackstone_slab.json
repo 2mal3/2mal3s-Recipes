@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "undo_slab",
+	"pattern": [
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:blackstone_slab"
+		}
+	},
+	"result": {
+		"item": "minecraft:blackstone",
+		"count": 1
+	}
+}

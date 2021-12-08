@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:obsidian"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        }
+    ],
+    "result": {
+        "item": "minecraft:ancient_debris"
+    }
+}

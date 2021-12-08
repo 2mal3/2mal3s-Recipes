@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_slab",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:exposed_cut_copper_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:exposed_cut_copper",
+    "count": 1
+  }
+}
