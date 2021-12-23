@@ -8,5 +8,8 @@
     "minecraft:diamond_horse_armor",
     "minecraft:diamond_pickaxe",
     "minecraft:diamond_axe",
+    "minecraft:diamond_hoe",
+    "minecraft:diamond_shovel",
+    "minecraft:diamond_sword"
   ]
 }
