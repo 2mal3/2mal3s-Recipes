@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "2re:melon_slices"
+    }
+  ],
+  "result": {
+    "item": "minecraft:melon_seeds"
+  }
+}
