@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:charcoal"]}]}}}, "rewards": {"recipes": ["2re:dyes/black/from_charcoal"]}}

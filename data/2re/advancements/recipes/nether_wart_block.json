@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:nether_wart_block"]}]}}}, "rewards": {"recipes": ["2re:undo/nether_wart"]}}

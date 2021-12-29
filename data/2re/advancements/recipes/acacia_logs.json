@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:acacia_logs"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "2re:wood_cut/acacia/fence_gate",
+      "2re:wood_cut/acacia/doors",
+      "2re:wood_cut/acacia/slabs",
+      "2re:wood_cut/acacia/planks",
+      "2re:wood_cut/acacia/button",
+      "2re:wood_cut/acacia/stairs",
+      "2re:wood_cut/acacia/fence",
+      "2re:wood_cut/acacia/pressure_plates",
+      "2re:wood_cut/acacia/trapdoor"
+    ]
+  }
+}

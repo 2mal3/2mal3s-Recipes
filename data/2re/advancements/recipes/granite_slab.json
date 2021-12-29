@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:granite_slab"]}]}}}, "rewards": {"recipes": ["2re:undo/slabs/granite_slab"]}}

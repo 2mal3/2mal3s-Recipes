@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:light_gray_dye"]}]}}}, "rewards": {"recipes": ["2re:dyes/gray/darken", "2re:dyes/light_gray/concrete"]}}

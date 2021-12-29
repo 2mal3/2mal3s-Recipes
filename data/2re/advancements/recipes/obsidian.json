@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:obsidian"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/ores/ancient_debris"]}}

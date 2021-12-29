@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "minecraft:wool"}]}}}, "rewards": {"recipes": ["2re:bed", "2re:undo/string"]}}

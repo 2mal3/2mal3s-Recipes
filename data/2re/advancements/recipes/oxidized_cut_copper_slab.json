@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:oxidized_cut_copper_slab"]}]}}}, "rewards": {"recipes": ["2re:undo/slabs/oxidized_cut_copper"]}}

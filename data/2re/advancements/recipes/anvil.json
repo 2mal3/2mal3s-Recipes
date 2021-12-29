@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:anvil"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "2re:anvil",
+      "2re:undo/iron/block"
+    ]
+  }
+}

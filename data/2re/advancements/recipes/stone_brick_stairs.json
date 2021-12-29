@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:stone_brick_stairs"]}]}}}, "rewards": {"recipes": ["2re:undo/stairs/stone_brick_stairs"]}}

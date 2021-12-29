@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:oak_log"]}]}}}, "rewards": {"recipes": ["2re:wood_cut/oak/log"]}}

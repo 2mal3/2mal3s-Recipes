@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:soul_sand"]}]}}}, "rewards": {"recipes": ["2re:tinted_glass_from_soul_sand"]}}

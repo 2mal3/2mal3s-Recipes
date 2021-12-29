@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:leather_chestplate"]}]}}}, "rewards": {"recipes": ["2re:undo/leather/chestplate"]}}

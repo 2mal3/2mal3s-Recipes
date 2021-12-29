@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "minecraft:logs"}]}}}, "rewards": {"recipes": ["2re:quick/chest", "2re:quick/stick", "2re:quick/ladder", "2re:wood_cut/crafting_tabel", "2re:wood_cut/stick", "2re:wood_cut/ladder"]}}

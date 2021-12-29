@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:smooth_red_sandstone_slab"]}]}}}, "rewards": {"recipes": ["2re:undo/slabs/smooth_red_sandstone_slab"]}}

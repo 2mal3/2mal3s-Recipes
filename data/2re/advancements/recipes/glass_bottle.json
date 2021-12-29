@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:glass_bottle"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/experience_bottle/rotten_flesh", "2re:new_crafts/experience_bottle/spider_eye"]}}

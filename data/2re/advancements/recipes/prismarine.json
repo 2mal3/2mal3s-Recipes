@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:prismarine"]}]}}}, "rewards": {"recipes": ["2re:prismarine_bricks_from_prismarine_stonecutting", "2re:undo/prismarine_shard_from_prismarine"]}}

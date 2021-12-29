@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "2re:gold_recycle"}]}}}, "rewards": {"recipes": ["2re:undo/gold_ingot"]}}

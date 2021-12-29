@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:red_nether_brick_slab"]}]}}}, "rewards": {"recipes": ["2re:undo/slabs/red_nether_brick_slab"]}}

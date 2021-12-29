@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:string"]}]}}}, "rewards": {"recipes": ["2re:quick/dispenser", "2re:new_crafts/saddle", "2re:new_crafts/name_tag", "2re:new_crafts/cobweb", "2re:new_crafts/bundle"]}}

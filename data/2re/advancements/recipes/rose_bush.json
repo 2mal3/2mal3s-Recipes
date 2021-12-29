@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:rose_bush"]}]}}}, "rewards": {"recipes": ["2re:quick/flower_duplication/rose_bush"]}}

@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:exposed_cut_copper_slab"]}]}}}, "rewards": {"recipes": ["2re:undo/slabs/exposed_cut_copper"]}}

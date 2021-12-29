@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:kelp"]}]}}}, "rewards": {"recipes": ["2re:dyes/green/from_kelp"]}}

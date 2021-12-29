@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:cobblestone"]}]}}}, "rewards": {"recipes": ["2re:gravel", "2re:new_crafts/tuff", "2re:new_crafts/calcite"]}}

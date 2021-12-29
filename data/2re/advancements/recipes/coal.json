@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:coal"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/ores/coal", "2re:new_crafts/ores/coal", "2re:new_crafts/ores/coal", "2re:new_crafts/ores/coal", "2re:new_crafts/ores/coal", "2re:dyes/black/from_coal"]}}
