@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "sticky_piston",
   "pattern": [
     "S",
     "P"
@@ -10,7 +9,7 @@
       "item": "minecraft:piston"
     },
     "S": {
-      "item": "minecraft:slime_ball"
+      "tag": "2re:sticky"
     }
   },
   "result": {

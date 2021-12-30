@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:honey_bottle"]}]}}}, "rewards": {"recipes": ["2re:sticky_piston_with_honey"]}}
