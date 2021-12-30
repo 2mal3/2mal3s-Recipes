@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:purpur_block"]}]}}}, "rewards": {"recipes": ["2re:dyes/purpur/from_purpur_block"]}}

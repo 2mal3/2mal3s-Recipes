@@ -1,13 +1,13 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "green_dye",
+    "group": "black_dye",
     "ingredients": [
         {
-            "item": "minecraft:slime_ball"
+            "tag": "2re:black"
         }
     ],
     "result": {
-        "item": "minecraft:green_dye",
+        "item": "minecraft:black_dye",
         "count": 1
     }
 }

@@ -1,13 +1,13 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "blue_dye",
+    "group": "green_dye",
     "ingredients": [
         {
-            "item": "minecraft:tube_coral_fan"
+            "tag": "2re:green"
         }
     ],
     "result": {
-        "item": "minecraft:blue_dye",
+        "item": "minecraft:green_dye",
         "count": 1
     }
 }

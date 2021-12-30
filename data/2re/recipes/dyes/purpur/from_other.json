@@ -3,7 +3,7 @@
     "group": "purple_dye",
     "ingredients": [
         {
-            "item": "minecraft:bubble_coral_fan"
+            "tag": "2re:purpur"
         }
     ],
     "result": {

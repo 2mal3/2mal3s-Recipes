@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:fire_coral_fan",
+    "minecraft:fire_coral",
+    "minecraft:redstone",
+    "minecraft:sweet_berries"
+  ]
+}

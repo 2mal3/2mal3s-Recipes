@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "2re:brown"}]}}}, "rewards": {"recipes": ["2re:dyes/brown/from_other"]}}

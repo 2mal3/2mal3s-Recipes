@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bubble_coral_fan",
+    "minecraft:bubble_coral",
+    "minecraft:purpur_block",
+    "minecraft:purpur_pillar"
+  ]
+}

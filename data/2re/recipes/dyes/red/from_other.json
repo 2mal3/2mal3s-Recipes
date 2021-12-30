@@ -3,7 +3,7 @@
     "group": "red_dye",
     "ingredients": [
         {
-            "item": "minecraft:redstone"
+            "tag": "2re:red"
         }
     ],
     "result": {
