@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:horn_coral"]}]}}}, "rewards": {"recipes": ["2re:dyes/yellow/from_horn_coral"]}}

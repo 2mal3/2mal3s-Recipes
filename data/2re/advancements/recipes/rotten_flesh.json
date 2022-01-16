@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:rotten_flesh"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/experience_bottle/rotten_flesh", "2re:new_crafts/hide/smoking", "2re:new_crafts/hide/campfire"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:rotten_flesh"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/hide/smoking", "2re:new_crafts/hide/campfire"]}}

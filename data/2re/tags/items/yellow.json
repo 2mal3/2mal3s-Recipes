@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:horn_coral_fan",
+    "minecraft:horn_coral_block"
+  ]
+}
