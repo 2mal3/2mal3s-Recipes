@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_from_carpet",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_wool",
+    "count": 2
+  }
+}
