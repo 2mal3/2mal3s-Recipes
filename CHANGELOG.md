@@ -8,7 +8,7 @@
  - Copper ore recipe
  - Ore recipe group
 
-### Changend:
+### Changed:
  - Better balanced ore recipes
  - Made Moss more expensive
 
