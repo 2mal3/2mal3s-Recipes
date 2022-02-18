@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:tripwire_hook"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/saddle"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:tripwire_hook"]}]}}}, "rewards": {"recipes": ["2re:new/saddle"]}}

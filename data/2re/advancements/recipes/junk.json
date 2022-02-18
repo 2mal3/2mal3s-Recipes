@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "2re:junk"}]}}}, "rewards": {"recipes": ["2re:new_crafts/experience_bottle"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "2re:junk"}]}}}, "rewards": {"recipes": ["2re:new/experience_bottle"]}}

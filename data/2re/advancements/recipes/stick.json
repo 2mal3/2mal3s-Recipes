@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:stick"]}]}}}, "rewards": {"recipes": ["2re:activator_rail", "2re:quick/dispenser", "2re:quick/repeater", "2re:new_crafts/bell"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:stick"]}]}}}, "rewards": {"recipes": ["2re:activator_rail", "2re:quick/dispenser", "2re:quick/repeater", "2re:new/bell"]}}

@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "minecraft:saplings"}]}}}, "rewards": {"recipes": ["2re:new_crafts/dead_bush"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "minecraft:saplings"}]}}}, "rewards": {"recipes": ["2re:new/dead_bush"]}}

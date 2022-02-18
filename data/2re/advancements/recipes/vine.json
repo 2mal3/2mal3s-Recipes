@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:vine"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/moss_block"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:vine"]}]}}}, "rewards": {"recipes": ["2re:new/moss_block"]}}

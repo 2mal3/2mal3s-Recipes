@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:dirt"]}]}}}, "rewards": {"recipes": ["2re:new_crafts/grass_block"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:dirt"]}]}}}, "rewards": {"recipes": ["2re:new/grass_block"]}}
