@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:prismarine_bricks"]}]}}}, "rewards": {"recipes": ["2re:undo/prismarine_from_prismarine_bricks"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:prismarine_bricks"]}]}}}, "rewards": {"recipes": ["2re:prismarine_bricks_from_prismarine_stonecutting", "2re:undo/prismarine_from_prismarine_bricks"]}}

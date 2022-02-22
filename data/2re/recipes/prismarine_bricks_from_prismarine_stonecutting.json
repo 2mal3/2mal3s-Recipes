@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:prismarine"
+    "item": "minecraft:prismarine_bricks"
   },
-  "result": "minecraft:prismarine_bricks",
-  "count": 1
+  "result": "minecraft:prismarine",
+  "count": 4
 }
