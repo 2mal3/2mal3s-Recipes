@@ -6,6 +6,8 @@
     "minecraft:iron_hoe",
     "minecraft:iron_shovel",
     "minecraft:iron_sword",
+    "minecraft:shield",
+    "minecraft:shears",
     "minecraft:compass",
     "minecraft:bucket",
     "minecraft:iron_helmet",
@@ -17,8 +19,11 @@
     "minecraft:iron_door",
     "minecraft:iron_trapdoor",
     "minecraft:cauldron",
-    "minecraft:hopper",
     "minecraft:blast_furnace",
-    "minecraft:shield"
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:hopper",
+    "minecraft:rail",
+    "minecraft:detector_rail",
+    "minecraft:activator_rail"
   ]
 }
