@@ -1,1 +1,1 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:gold_block"]}]}}}, "rewards": {"recipes": ["2re:new/enchanted_golden_apple", "2re:new/bell"]}}
+{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:gold_block"]}]}}}, "rewards": {"recipes": ["2re:new/bell"]}}
