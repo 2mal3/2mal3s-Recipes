@@ -16,7 +16,7 @@
       "tag": "minecraft:planks"
     },
     "X": {
-      "item": "minecraft:iron_ingot"
+      "tag": "2re:metal"
     }
   },
   "result": {
