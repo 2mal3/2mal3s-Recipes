@@ -1,4 +1,20 @@
 
+## Update v1.3.0 (18.3.2022)
+
+### Added:
+ - more uses for copper
+ - cheaper glass panes
+
+### Fixed:
+ - player head in the datapack advancement was not displayed correctly
+ - datapack is no longer shown as incompatible to 1.18.2
+
+### Removed:
+ - diaond recycling
+ - enchanted golden appple recipe
+
+***
+
 ## Update v1.2.0 (25.2.2022)
 
 ### Added:
