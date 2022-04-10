@@ -1,19 +1,15 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "furnace_minecart",
-    "pattern": [
-      "A",
-      "B"
-    ],
-    "key": {
-      "A": {
-        "item": "minecraft:furnace"
-      },
-      "B": {
-        "item": "minecraft:minecart"
-      }
+  "type": "minecraft:crafting_shapeless",
+  "group": "furnace_minecart",
+  "ingredients": [
+    {
+      "item": "minecraft:furnace"
     },
-    "result": {
-      "item": "minecraft:furnace_minecart"
+    {
+      "item": "minecraft:minecart"
     }
+  ],
+  "result": {
+    "item": "minecraft:furnace_minecart"
   }
+}
