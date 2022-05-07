@@ -1,4 +1,15 @@
 
+## Update v1.4.0 (7.5.2022)
+
+### Added:
+ - minecart recipes made shapeless
+ - jack o lantern recipe made shapeless
+ - jack o lantern can also be crafted with a non-carved pumpkin
+ - recipe for bee nest
+ - stone tools can be made with more types of stone
+
+***
+
 ## Update v1.3.0 (18.3.2022)
 
 ### Added:
