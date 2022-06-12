@@ -1,4 +1,11 @@
 
+## Update v1.4.1 (12.6.2022)
+
+### Changed:
+ - made compatible with 1.19
+
+***
+
 ## Update v1.4.0 (7.5.2022)
 
 ### Added:
