@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "bread",
   "ingredients": [
     {
       "item": "minecraft:wheat"
@@ -14,6 +15,5 @@
   "result": {
     "item": "minecraft:bread",
     "count": 1
-  },
-  "group": "bread"
+  }
 }
