@@ -1,0 +1,18 @@
+name: Test
+
+on:
+  push
+
+jobs:
+  json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+
+      - name: Install jsonlint-cli
+        run: npm install -g jsonlint-cli
+      - name: Lint json files
+        run: find . -name "*.json" | xargs jsonlint-cli
