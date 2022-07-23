@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Zip files
+        uses: TheDoctor0/zip-release@0.6.2
+        with:
+          filename: "2mal3s-Recipes.zip"
+          type: "zip"
+          exclusions: "*.git* .gitignore"
+
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: 2mal3s Recipes Datapack ${{github.ref_name}}
+          body_path: CHANGELOG.md
+          files: 2mal3s-Recipes
