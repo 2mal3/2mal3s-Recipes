@@ -25,4 +25,4 @@ jobs:
         with:
           name: 2mal3s Recipes Datapack ${{github.ref_name}}
           body_path: CHANGELOG.md
-          files: 2mal3s-Recipes
+          files: 2mal3s-Recipes.zip
