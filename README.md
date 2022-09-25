@@ -27,6 +27,6 @@ The 2mal3's Recips datapack adds, changes, fixes and upgrades over 400 different
 
 - Works in Vanilla and Fabric in 1.18.x in Single and Multiplayer
 - Not tested with Forge, Bukkti, Spigot and PaperSpigot but probably work
-- bug reports and suggestions are best done on [GitHub](https://github.com/2mal3/Natural-Disaster-Datapack/issues)
+- bug reports and suggestions are best done on [GitHub](https://github.com/2mal3/2mal3s-Recipes/issues)
 - Compatible with other datapacks that do not add or change too many recipes themselves
 - To uninstall, simply delete the file
