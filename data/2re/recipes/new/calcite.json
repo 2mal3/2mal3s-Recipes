@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#D",
-    "D#"
-  ],
+  "pattern": ["#D", "D#"],
   "key": {
     "#": {
       "item": "minecraft:cobblestone"

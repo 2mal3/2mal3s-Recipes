@@ -1,20 +1,17 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "tnt_minecart",
-    "pattern": [
-        "iHi",
-        "iii"
-    ],
-    "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "H": {
-            "item": "minecraft:tnt"
-        }
+  "type": "minecraft:crafting_shaped",
+  "group": "tnt_minecart",
+  "pattern": ["iHi", "iii"],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
     },
-    "result": {
-        "item": "minecraft:tnt_minecart",
-        "count": 1
+    "H": {
+      "item": "minecraft:tnt"
     }
+  },
+  "result": {
+    "item": "minecraft:tnt_minecart",
+    "count": 1
+  }
 }

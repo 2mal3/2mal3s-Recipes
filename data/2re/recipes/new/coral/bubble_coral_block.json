@@ -1,17 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "coral_blocks",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "pattern": ["##", "##"],
   "key": {
     "#": [
       {
-         "item": "minecraft:bubble_coral"
+        "item": "minecraft:bubble_coral"
       },
       {
-         "item": "minecraft:bubble_coral_fan"
+        "item": "minecraft:bubble_coral_fan"
       }
     ]
   },

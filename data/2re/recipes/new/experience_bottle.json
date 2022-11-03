@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "experience_bottle",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
+  "pattern": ["###", "#G#", "###"],
   "key": {
     "#": {
       "item": "minecraft:sculk"

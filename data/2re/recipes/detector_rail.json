@@ -1,24 +1,20 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "detector_rail",
-    "pattern": [
-        "#",
-        "R",
-        "I"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:stone_pressure_plate"
-        },
-        "R": {
-            "item": "minecraft:rail"
-        },
-        "I": {
-            "item": "minecraft:redstone"
-        }
+  "type": "minecraft:crafting_shaped",
+  "group": "detector_rail",
+  "pattern": ["#", "R", "I"],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_pressure_plate"
     },
-    "result": {
-        "item": "minecraft:detector_rail",
-        "count": 1
+    "R": {
+      "item": "minecraft:rail"
+    },
+    "I": {
+      "item": "minecraft:redstone"
     }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
 }

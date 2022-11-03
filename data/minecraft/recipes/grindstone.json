@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "I-I",
-    "# #"
-  ],
+  "pattern": ["I-I", "# #"],
   "key": {
     "I": {
       "item": "minecraft:stick"

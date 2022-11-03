@@ -1,17 +1,14 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "undo_stairs",
-	"pattern": [
-		"##",
-		"##"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:quartz_stairs"
-		}
-	},
-	"result": {
-		"item": "minecraft:quartz_block",
-		"count": 3
-	}
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:quartz_block",
+    "count": 3
+  }
 }

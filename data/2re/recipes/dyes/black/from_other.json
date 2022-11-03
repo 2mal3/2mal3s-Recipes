@@ -1,13 +1,13 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "black_dye",
-    "ingredients": [
-        {
-            "tag": "2re:black"
-        }
-    ],
-    "result": {
-        "item": "minecraft:black_dye",
-        "count": 1
+  "type": "minecraft:crafting_shapeless",
+  "group": "black_dye",
+  "ingredients": [
+    {
+      "tag": "2re:black"
     }
+  ],
+  "result": {
+    "item": "minecraft:black_dye",
+    "count": 1
+  }
 }

@@ -8,11 +8,7 @@
       "tag": "2re:jukebox_core"
     }
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
+  "pattern": ["###", "#X#", "###"],
   "result": {
     "item": "minecraft:jukebox"
   }

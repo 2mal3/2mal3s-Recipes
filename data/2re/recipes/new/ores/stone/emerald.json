@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "ore",
-    "ingredients": [
-        {
-            "item": "minecraft:stone"
-        },
-        {
-            "item": "minecraft:emerald"
-        },
-        {
-            "item": "minecraft:emerald"
-        },
-        {
-            "item": "minecraft:emerald"
-        },
-        {
-            "item": "minecraft:emerald"
-        }
-    ],
-    "result": {
-        "item": "minecraft:emerald_ore"
+  "type": "minecraft:crafting_shapeless",
+  "group": "ore",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
     }
+  ],
+  "result": {
+    "item": "minecraft:emerald_ore"
+  }
 }

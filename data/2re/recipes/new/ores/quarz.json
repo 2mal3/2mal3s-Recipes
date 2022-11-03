@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "ore",
-    "ingredients": [
-        {
-            "item": "minecraft:netherrack"
-        },
-        {
-            "item": "minecraft:quartz"
-        },
-        {
-            "item": "minecraft:quartz"
-        },
-        {
-            "item": "minecraft:quartz"
-        },
-        {
-            "item": "minecraft:quartz"
-        }
-    ],
-    "result": {
-        "item": "minecraft:nether_quartz_ore"
+  "type": "minecraft:crafting_shapeless",
+  "group": "ore",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
     }
+  ],
+  "result": {
+    "item": "minecraft:nether_quartz_ore"
+  }
 }

@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "dispenser",
-  "pattern": [
-    "###",
-    "#X#",
-    "#R#"
-  ],
+  "pattern": ["###", "#X#", "#R#"],
   "key": {
     "R": {
       "item": "minecraft:redstone"

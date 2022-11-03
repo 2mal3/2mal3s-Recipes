@@ -1,10 +1,6 @@
 {
   "type": "crafting_shaped",
-  "pattern": [
-    " # ",
-    "#X#",
-    "III"
-  ],
+  "pattern": [" # ", "#X#", "III"],
   "key": {
     "#": {
       "item": "minecraft:redstone_torch"

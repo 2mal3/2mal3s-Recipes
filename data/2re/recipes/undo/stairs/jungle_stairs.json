@@ -1,17 +1,14 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "undo_stairs",
-	"pattern": [
-		"##",
-		"##"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:jungle_stairs"
-		}
-	},
-	"result": {
-		"item": "minecraft:jungle_planks",
-		"count": 3
-	}
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_planks",
+    "count": 3
+  }
 }

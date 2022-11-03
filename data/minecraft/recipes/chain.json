@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "N",
-    "I",
-    "N"
-  ],
+  "pattern": ["N", "I", "N"],
   "key": {
     "I": {
       "item": "minecraft:iron_ingot"

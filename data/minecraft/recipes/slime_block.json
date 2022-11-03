@@ -6,10 +6,7 @@
       "item": "minecraft:slime_ball"
     }
   },
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "pattern": ["##", "##"],
   "result": {
     "item": "minecraft:slime_block"
   }

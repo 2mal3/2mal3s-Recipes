@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#L#",
-    "L L",
-    "LLL"
-  ],
+  "pattern": ["#L#", "L L", "LLL"],
   "key": {
     "#": {
       "item": "minecraft:string"

@@ -1,17 +1,14 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "undo_stairs",
-	"pattern": [
-		"##",
-		"##"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:smooth_red_sandstone_stairs"
-		}
-	},
-	"result": {
-		"item": "minecraft:smooth_red_sandstone",
-		"count": 3
-	}
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_red_sandstone_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:smooth_red_sandstone",
+    "count": 3
+  }
 }

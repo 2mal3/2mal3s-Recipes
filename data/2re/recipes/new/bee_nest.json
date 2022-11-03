@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "HHH",
-    "HBH",
-    "HHH"
-  ],
-  "key": {  
+  "pattern": ["HHH", "HBH", "HHH"],
+  "key": {
     "B": {
       "item": "minecraft:beehive"
     },

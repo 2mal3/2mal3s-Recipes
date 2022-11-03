@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "tag": "minecraft:birch_logs"
-    },
-    "result": "minecraft:birch_door",
-    "count": 2
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "minecraft:birch_logs"
+  },
+  "result": "minecraft:birch_door",
+  "count": 2
 }

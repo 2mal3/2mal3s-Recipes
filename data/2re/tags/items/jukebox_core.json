@@ -1,7 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "minecraft:diamond",
-    "minecraft:amethyst_shard"
-  ]
+  "values": ["minecraft:diamond", "minecraft:amethyst_shard"]
 }

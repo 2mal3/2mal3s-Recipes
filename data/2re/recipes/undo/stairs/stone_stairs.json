@@ -1,17 +1,14 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "undo_stairs",
-	"pattern": [
-		"##",
-		"##"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:stone_stairs"
-		}
-	},
-	"result": {
-		"item": "minecraft:stone",
-		"count": 3
-	}
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone",
+    "count": 3
+  }
 }

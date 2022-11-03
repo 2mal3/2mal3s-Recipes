@@ -1,17 +1,14 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "undo_stairs",
-	"pattern": [
-		"##",
-		"##"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:polished_blackstone_brick_stairs"
-		}
-	},
-	"result": {
-		"item": "minecraft:polished_blackstone_bricks",
-		"count": 3
-	}
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_blackstone_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:polished_blackstone_bricks",
+    "count": 3
+  }
 }

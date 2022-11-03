@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "tag": "minecraft:acacia_logs"
-    },
-    "result": "minecraft:acacia_button",
-    "count": 32
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "minecraft:acacia_logs"
+  },
+  "result": "minecraft:acacia_button",
+  "count": 32
 }

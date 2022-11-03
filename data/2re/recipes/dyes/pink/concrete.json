@@ -1,20 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#B#",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "tag": "2re:concrete"
-        },
-        "B": {
-            "item": "minecraft:pink_dye"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "#B#", "###"],
+  "key": {
+    "#": {
+      "tag": "2re:concrete"
     },
-    "result": {
-        "item": "minecraft:pink_concrete",
-        "count": 8
+    "B": {
+      "item": "minecraft:pink_dye"
     }
+  },
+  "result": {
+    "item": "minecraft:pink_concrete",
+    "count": 8
+  }
 }

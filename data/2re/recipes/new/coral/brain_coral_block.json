@@ -1,17 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "coral_blocks",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "pattern": ["##", "##"],
   "key": {
     "#": [
       {
-         "item": "minecraft:brain_coral"
+        "item": "minecraft:brain_coral"
       },
       {
-         "item": "minecraft:brain_coral_fan"
+        "item": "minecraft:brain_coral_fan"
       }
     ]
   },

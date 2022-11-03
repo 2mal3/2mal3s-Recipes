@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "XXX",
-    "X#X",
-    "XXX"
-  ],
+  "pattern": ["XXX", "X#X", "XXX"],
   "key": {
     "#": {
       "tag": "2re:light"

@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "tag": "minecraft:jungle_logs"
-    },
-    "result": "minecraft:jungle_button",
-    "count": 32
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "minecraft:jungle_logs"
+  },
+  "result": "minecraft:jungle_button",
+  "count": 32
 }

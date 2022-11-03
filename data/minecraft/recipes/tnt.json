@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X#X",
-    "#X#",
-    "X#X"
-  ],
+  "pattern": ["X#X", "#X#", "X#X"],
   "key": {
     "#": {
       "tag": "minecraft:sand"

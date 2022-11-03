@@ -1,10 +1,6 @@
 {
   "type": "crafting_shaped",
-  "pattern": [
-    "SSS",
-    "SIS",
-    "SSS"
-  ],
+  "pattern": ["SSS", "SIS", "SSS"],
   "key": {
     "S": {
       "item": "minecraft:prismarine"

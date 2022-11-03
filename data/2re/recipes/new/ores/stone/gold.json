@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "ore",
-    "ingredients": [
-        {
-            "item": "minecraft:stone"
-        },
-        {
-            "item": "minecraft:raw_gold"
-        },
-        {
-            "item": "minecraft:raw_gold"
-        },
-        {
-            "item": "minecraft:raw_gold"
-        },
-        {
-            "item": "minecraft:raw_gold"
-        }
-    ],
-    "result": {
-        "item": "minecraft:gold_ore"
+  "type": "minecraft:crafting_shapeless",
+  "group": "ore",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "item": "minecraft:raw_gold"
     }
+  ],
+  "result": {
+    "item": "minecraft:gold_ore"
+  }
 }

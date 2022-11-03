@@ -1,20 +1,17 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "furnace_minecart",
-    "pattern": [
-        "iHi",
-        "iii"
-    ],
-    "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "H": {
-            "item": "minecraft:furnace"
-        }
+  "type": "minecraft:crafting_shaped",
+  "group": "furnace_minecart",
+  "pattern": ["iHi", "iii"],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
     },
-    "result": {
-        "item": "minecraft:furnace_minecart",
-        "count": 1
+    "H": {
+      "item": "minecraft:furnace"
     }
+  },
+  "result": {
+    "item": "minecraft:furnace_minecart",
+    "count": 1
+  }
 }

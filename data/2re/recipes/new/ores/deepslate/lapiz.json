@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "ore",
-    "ingredients": [
-        {
-            "item": "minecraft:deepslate"
-        },
-        {
-            "item": "minecraft:lapis_block"
-        },
-        {
-            "item": "minecraft:lapis_block"
-        },
-        {
-            "item": "minecraft:lapis_block"
-        },
-        {
-            "item": "minecraft:lapis_block"
-        }
-    ],
-    "result": {
-        "item": "minecraft:deepslate_lapis_ore"
+  "type": "minecraft:crafting_shapeless",
+  "group": "ore",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
     }
+  ],
+  "result": {
+    "item": "minecraft:deepslate_lapis_ore"
+  }
 }

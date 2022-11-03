@@ -1,7 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "minecraft:slime_ball",
-    "minecraft:honey_bottle"
-  ]
+  "values": ["minecraft:slime_ball", "minecraft:honey_bottle"]
 }

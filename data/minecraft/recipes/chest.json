@@ -1,17 +1,13 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "chest",
-    "pattern": [
-      "###",
-      "# #",
-      "###"
-    ],
-    "key": {
-      "#": {
-        "tag": "minecraft:planks"
-      }
-    },
-    "result": {
-      "item": "minecraft:chest"
+  "type": "minecraft:crafting_shaped",
+  "group": "chest",
+  "pattern": ["###", "# #", "###"],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
     }
+  },
+  "result": {
+    "item": "minecraft:chest"
   }
+}

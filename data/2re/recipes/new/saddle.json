@@ -1,23 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#S#",
-        "T T"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:leather"
-        },
-        "S": {
-            "item": "minecraft:string"
-        },
-        "T": {
-            "item": "minecraft:tripwire_hook"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "#S#", "T T"],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
     },
-    "result": {
-        "item": "minecraft:saddle",
-        "count": 1
+    "S": {
+      "item": "minecraft:string"
+    },
+    "T": {
+      "item": "minecraft:tripwire_hook"
     }
+  },
+  "result": {
+    "item": "minecraft:saddle",
+    "count": 1
+  }
 }

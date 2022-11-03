@@ -1,27 +1,27 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "ore",
-    "ingredients": [
-        {
-            "item": "minecraft:stone"
-        },
-        {
-            "item": "minecraft:coal"
-        },
-        {
-            "item": "minecraft:coal"
-        },
-        {
-            "item": "minecraft:coal"
-        },
-        {
-            "item": "minecraft:coal"
-        },
-        {
-            "item": "minecraft:coal"
-        }
-    ],
-    "result": {
-        "item": "minecraft:coal_ore"
+  "type": "minecraft:crafting_shapeless",
+  "group": "ore",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
     }
+  ],
+  "result": {
+    "item": "minecraft:coal_ore"
+  }
 }
