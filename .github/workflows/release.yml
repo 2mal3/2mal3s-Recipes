@@ -23,6 +23,6 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          name: 2mal3s Recipes Datapack ${{github.ref_name}}
+          name: 2mal3s Recipes ${{github.ref_name}}
           body_path: CHANGELOG.md
           files: 2mal3s-Recipes.zip
