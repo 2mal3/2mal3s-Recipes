@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "2mal3s-recipes"
+version = "1.6.0"
+description = ""
+authors = ["2mal3 <56305732+2mal3@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beet = "^0.81.3"
+mecha = "^0.62.0"
+bolt = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
