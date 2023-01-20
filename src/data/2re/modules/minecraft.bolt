@@ -8,7 +8,6 @@ for type in ["polished_blackstone", "stone"]:
     button_stone_types.append([type, ""])
 
 color_types = ["white", "light_gray", "gray", "black", "brown", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "purple", "magenta", "pink"]
-repetitive
 
 ## Glass and Glass Panes from any other color
 for color in color_types:
