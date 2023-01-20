@@ -8,7 +8,7 @@ minecraft: "1.19"
 output: build
 
 data_pack:
-  name: Natural-Disaster-Datapack
+  name: 2mal3s-Recipes
   load:
     - src
 
