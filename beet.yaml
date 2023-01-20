@@ -20,6 +20,9 @@ require:
   - bolt
 
 meta:
+  bolt:
+    entrypoint:
+      - 2re:minecraft
   installation_advancement:
     icon:
       item: minecraft:crafting_table
