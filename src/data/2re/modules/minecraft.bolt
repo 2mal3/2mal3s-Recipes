@@ -1,164 +1,67 @@
-
-wood_types = ["acacia", "birch", "dark_oak", "jungle", "oak", "spruce"]
-nether_wood_types = ["crimson", "warped"]
-
-normal_stone_types = [
-    "stone", "cobblestone", "mossy_cobblestone",
-    "cobbled_deepslate", "polished_deepslate",
-    "granite", "polished_granite", "diorite", "polished_diorite", "andesite", "polished_andesite",
-    "smooth_sandstone", "smooth_red_sandstone",
-    "prismarine", "dark_prismarine",
-    "blackstone", "polished_blackstone",
-    "cut_copper", "exposed_cut_copper", "weathered_cut_copper", "oxidized_cut_copper",
-    "waxed_cut_copper", "waxed_exposed_cut_copper", "waxed_weathered_cut_copper", "waxed_oxidized_cut_copper",
-]
-s_stone_types = [
-    "brick",
-    "deepslate_brick", "deepslate_tile",
-    "end_stone_brick",
-    "stone_brick", "mossy_stone_brick",
-    "nether_brick", "red_nether_brick",
-    "polished_blackstone_brick",
-    "prismarine_brick",
-]
-
-button_stone_types = ["polished_blackstone", "stone"]
-
-color_types = ["white", "light_gray", "gray", "black", "brown", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "purple", "magenta", "pink"]
+from beet.contrib.vanilla import Vanilla
 
 
-## Cheaper stairs
-for type in wood_types + nether_wood_types + normal_stone_types + s_stone_types:
-    ending = ""
-    if type in wood_types or type in nether_wood_types:
-        ending = "_planks"
-    if type in normal_stone_types:
-        ending = ""
-    if type in s_stone_types:
-        ending = "s"
+vanilla_recipes = ctx.inject(Vanilla).mount("data/minecraft/recipes").data.recipes
+for name, recipe in vanilla_recipes.items():
 
-    recipe f"minecraft:{type}_stairs" {
-        "type": "minecraft:crafting_shaped",
-        "category": "building",
-        "group": "stairs",
-        "pattern": ["#  ", "## ", "###"],
-        "key": {
-            "#": {
-            "item": f"minecraft:{type}{ending}"
-            }
-        },
-        "result": {
-            "item": f"minecraft:{type}_stairs",
-            "count": 8
-        }
-    }
+    # Cheaper stairs
+    if name.endswith("_stairs"):
+        modified_recipe = recipe.data
 
+        modified_recipe["result"]["count"] = 8
+        modified_recipe["group"] = "stairs"
 
+        recipe name modified_recipe
 
+    # Cheaper glass panes
+    if name.endswith("_stained_glass_pane") or name == "minecraft:glass_pane":
+        modified_recipe = recipe.data
 
-## Cheaper log to wood
-for type in wood_types + nether_wood_types:
-    ending = []
-    if type in wood_types:
-        ending = ["_log", "_wood"]
-    if type in nether_wood_types:
-        ending = ["_stem", "_hyphae"]
+        modified_recipe["result"]["count"] = 24
+        modified_recipe["group"] = "glass_pane"
 
-    recipe f"minecraft:{type}{ending[1]}" {
-        "type": "minecraft:crafting_shaped",
-        "category": "building",
-        "group": "bark",
-        "pattern": ["##", "##"],
-        "key": {
-            "#": {
-            "item": f"minecraft:{type}{ending[0]}"
-            }
-        },
-        "result": {
-            "item": f"minecraft:{type}{ending[1]}",
-            "count": 4
-        }
-    }
+        recipe name modified_recipe
 
+    # Cheaper button
+    if name.endswith("_button"):
+        modified_recipe_ = recipe.data
 
+        modified_recipe_["group"] = "button"
+        modified_recipe_["result"]["count"] = 8
 
-## Glass and Glass Panes from any other color
-for color in color_types:
-    # Glass Panes
-    recipe f"minecraft:{color}_stained_glass_pane" {
-        "type": "minecraft:crafting_shaped",
-        "category": "misc",
-        "group": "stained_glass_pane",
-        "pattern": ["###", "###"],
-        "key": {
-            "#": {
-            "item": f"minecraft:{color}_stained_glass"
-            }
-        },
-        "result": {
-            "item": f"minecraft:{color}_stained_glass_pane",
-            "count": 24
-        }
-    }
+        recipe name modified_recipe_
 
-    # Wool
-    recipe f"minecraft:{color}_wool" {
-        "type": "minecraft:crafting_shapeless",
-        "category": "building",
-        "group": "wool",
-        "ingredients": [
-            {
+    # Cheaper pressure plate
+    if name.endswith("_pressure_plate"):
+        modified_recipe_ = recipe.data
+
+        modified_recipe_["group"] = "pressure_plate"
+        modified_recipe_["result"]["count"] = 4
+
+        recipe name modified_recipe_
+
+    # Cheaper glass panes
+    if name.endswith("_stained_glass_pane") or name == "minecraft:glass_pane":
+        modified_recipe = recipe.data
+
+        modified_recipe["result"]["count"] = 24
+
+        recipe name modified_recipe
+
+    # Cheaper woods
+    if (name.endswith("_wood") or name.endswith("_hyphae")) and not name.startswith("minecraft:stripped_"):
+        modified_recipe = recipe.data
+
+        modified_recipe["result"]["count"] = 4
+
+        recipe name modified_recipe
+
+    # Re-dye wool from every color
+    if name.endswith("_wool"):
+        modified_recipe = recipe.data
+
+        modified_recipe["ingredients"][1] = {
             "tag": "minecraft:wool"
-            },
-            {
-            "item": f"minecraft:{color}_dye"
-            }
-        ],
-        "result": {
-            "item": f"minecraft:{color}_wool",
-            "count": 1
         }
-    }
 
-
-
-## Cheaper buttons and pressure plates
-for material in wood_types + nether_wood_types + button_stone_types:
-    ending = ""
-    if material in wood_types or material in nether_wood_types:
-        ending = "_planks"
-    if material in button_stone_types:
-        ending = ""
-
-    # Cheaper buttons
-    recipe f"minecraft:{material}_button" {
-        "type": "minecraft:crafting_shapeless",
-        "category": "redstone",
-        "group": "button",
-        "ingredients": [
-            {
-            "item": f"minecraft:{material}{ending}"
-            }
-        ],
-        "result": {
-            "item": f"minecraft:{material}_button",
-            "count": 8
-        }
-    }
-
-    # Cheaper pressure plates
-    recipe f"minecraft:{material}_pressure_plate" {
-        "type": "minecraft:crafting_shaped",
-        "category": "redstone",
-        "group": "pressure_plate",
-        "pattern": ["##"],
-        "key": {
-            "#": {
-            "item": f"minecraft:{material}{ending}"
-            }
-        },
-        "result": {
-            "item": f"minecraft:{material}_pressure_plate",
-            "count": 4
-        }
-    }
+        recipe name modified_recipe
