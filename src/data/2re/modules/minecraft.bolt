@@ -1,13 +1,37 @@
 
-wood_types = []
-for type in ["acacia", "birch", "crimson", "dark_oak", "jungle", "oak", "spruce", "warped"]:
-    wood_types.append([type, "_planks"])
+wood_types = ["acacia", "birch", "dark_oak", "jungle", "oak", "spruce"]
+nether_wood_types = ["crimson", "warped"]
 
-button_stone_types = []
-for type in ["polished_blackstone", "stone"]:
-    button_stone_types.append([type, ""])
+button_stone_types = ["polished_blackstone", "stone"]
 
 color_types = ["white", "light_gray", "gray", "black", "brown", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "purple", "magenta", "pink"]
+
+
+## Cheaper log to wood
+for type in wood_types + nether_wood_types:
+    ending = []
+    if type in wood_types:
+        ending = ["_log", "_wood"]
+    if type in nether_wood_types:
+        ending = ["_stem", "_hyphae"]
+
+    recipe f"minecraft:{type}{ending[1]}" {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "group": "bark",
+        "pattern": ["##", "##"],
+        "key": {
+            "#": {
+            "item": f"minecraft:{type}{ending[0]}"
+            }
+        },
+        "result": {
+            "item": f"minecraft:{type}{ending[1]}",
+            "count": 4
+        }
+    }
+
+
 
 ## Glass and Glass Panes from any other color
 for color in color_types:
@@ -49,39 +73,43 @@ for color in color_types:
 
 
 
-
 ## Cheaper buttons and pressure plates
-materials1 = wood_types + button_stone_types
-for material in materials1:
+for material in wood_types + nether_wood_types + button_stone_types:
+    ending = ""
+    if material in wood_types or material in nether_wood_types:
+        ending = "_planks"
+    if material in button_stone_types:
+        ending = ""
+
     # Cheaper buttons
-    recipe f"minecraft:{material[0]}_button" {
+    recipe f"minecraft:{material}_button" {
         "type": "minecraft:crafting_shapeless",
         "category": "redstone",
         "group": "button",
         "ingredients": [
             {
-            "item": f"minecraft:{material[0]}{material[1]}"
+            "item": f"minecraft:{material}{ending}"
             }
         ],
         "result": {
-            "item": f"minecraft:{material[0]}_button",
+            "item": f"minecraft:{material}_button",
             "count": 8
         }
     }
 
     # Cheaper pressure plates
-    recipe f"minecraft:{material[0]}_pressure_plate" {
+    recipe f"minecraft:{material}_pressure_plate" {
         "type": "minecraft:crafting_shaped",
         "category": "redstone",
         "group": "pressure_plate",
         "pattern": ["##"],
         "key": {
             "#": {
-            "item": f"minecraft:{material[0]}{material[1]}"
+            "item": f"minecraft:{material}{ending}"
             }
         },
         "result": {
-            "item": f"minecraft:{material[0]}_pressure_plate",
+            "item": f"minecraft:{material}_pressure_plate",
             "count": 4
         }
     }
