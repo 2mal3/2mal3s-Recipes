@@ -1,0 +1,67 @@
+from beet.contrib.vanilla import Vanilla
+
+
+vanilla_recipes = ctx.inject(Vanilla).mount("data/minecraft/recipes").data.recipes
+for name, recipe in vanilla_recipes.items():
+
+    # Cheaper stairs
+    if name.endswith("_stairs"):
+        modified_recipe = recipe.data
+
+        modified_recipe["result"]["count"] = 8
+        modified_recipe["group"] = "stairs"
+
+        recipe name modified_recipe
+
+    # Cheaper glass panes
+    if name.endswith("_stained_glass_pane") or name == "minecraft:glass_pane":
+        modified_recipe = recipe.data
+
+        modified_recipe["result"]["count"] = 24
+        modified_recipe["group"] = "glass_pane"
+
+        recipe name modified_recipe
+
+    # Cheaper button
+    if name.endswith("_button"):
+        modified_recipe_ = recipe.data
+
+        modified_recipe_["group"] = "button"
+        modified_recipe_["result"]["count"] = 8
+
+        recipe name modified_recipe_
+
+    # Cheaper pressure plate
+    if name.endswith("_pressure_plate"):
+        modified_recipe_ = recipe.data
+
+        modified_recipe_["group"] = "pressure_plate"
+        modified_recipe_["result"]["count"] = 4
+
+        recipe name modified_recipe_
+
+    # Cheaper glass panes
+    if name.endswith("_stained_glass_pane") or name == "minecraft:glass_pane":
+        modified_recipe = recipe.data
+
+        modified_recipe["result"]["count"] = 24
+
+        recipe name modified_recipe
+
+    # Cheaper woods
+    if (name.endswith("_wood") or name.endswith("_hyphae")) and not name.startswith("minecraft:stripped_"):
+        modified_recipe = recipe.data
+
+        modified_recipe["result"]["count"] = 4
+
+        recipe name modified_recipe
+
+    # Re-dye wool from every color
+    if name.endswith("_wool"):
+        modified_recipe = recipe.data
+
+        modified_recipe["ingredients"][1] = {
+            "tag": "minecraft:wool"
+        }
+
+        recipe name modified_recipe
