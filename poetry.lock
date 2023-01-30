@@ -2,14 +2,14 @@
 
 [[package]]
 name = "beet"
-version = "0.82.1"
+version = "0.82.4"
 description = "The Minecraft pack development kit"
 category = "main"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "beet-0.82.1-py3-none-any.whl", hash = "sha256:21c96a94a854fea0b5f0b8b393b9c11f2e1c38a6c10707fffc5d6db764b6104e"},
-    {file = "beet-0.82.1.tar.gz", hash = "sha256:f4e1b2d542f079282bd39ee5e5cf02117dd0a19ef3369546f5001066ab811843"},
+    {file = "beet-0.82.4-py3-none-any.whl", hash = "sha256:1c20f3ef4b4fd313f15692d6addf7695718d85f05e51b0845f81d68d63f36bca"},
+    {file = "beet-0.82.4.tar.gz", hash = "sha256:6ced204ddb18215dbae0bbc09706c4996af87ff1f77f9cc99616d048a847cb46"},
 ]
 
 [package.dependencies]
@@ -378,4 +378,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3e9cfff1082067a8bcf4206212642a8422bb2b019cdd41aa89debe99a61bf7da"
+content-hash = "66b0db181a4ebb7eadf4bd7806c7e080c4097499214b1ce98d436b070b9ee01b"
