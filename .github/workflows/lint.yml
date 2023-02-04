@@ -5,6 +5,7 @@ on:
       paths:
         - "**.bolt"
         - "**.json"
+        - "beet.yaml"
   pull_request:
   workflow_dispatch:
 
