@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["N", "I", "N"],
   "key": {
     "I": {
       "item": "minecraft:iron_ingot"
@@ -9,6 +8,11 @@
       "item": "minecraft:iron_nugget"
     }
   },
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
   "result": {
     "item": "minecraft:chain",
     "count": 2

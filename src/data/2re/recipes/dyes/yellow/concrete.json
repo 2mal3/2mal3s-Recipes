@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "#B#", "###"],
   "key": {
     "#": {
       "tag": "2re:concrete"
@@ -9,6 +8,11 @@
       "item": "minecraft:yellow_dye"
     }
   },
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
   "result": {
     "item": "minecraft:yellow_concrete",
     "count": 8

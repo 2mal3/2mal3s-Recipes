@@ -1,7 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "trident",
-  "pattern": ["###", "#T#", "###"],
+  "pattern": [
+    "###",
+    "#T#",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:prismarine_crystals"

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["///", "SGS", "S S"],
   "key": {
     "/": {
       "item": "minecraft:stick"
@@ -12,6 +11,11 @@
       "item": "minecraft:gold_block"
     }
   },
+  "pattern": [
+    "///",
+    "SGS",
+    "S S"
+  ],
   "result": {
     "item": "minecraft:bell",
     "count": 1

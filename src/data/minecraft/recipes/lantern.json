@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["XXX", "X#X", "XXX"],
   "key": {
     "#": {
       "tag": "2re:light"
@@ -9,6 +8,11 @@
       "item": "minecraft:iron_nugget"
     }
   },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
   "result": {
     "item": "minecraft:lantern"
   }

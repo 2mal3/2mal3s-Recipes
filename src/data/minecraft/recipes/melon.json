@@ -1,11 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["MM", "MM"],
   "key": {
     "M": {
       "item": "minecraft:melon_slice"
     }
   },
+  "pattern": [
+    "MM",
+    "MM"
+  ],
   "result": {
     "item": "minecraft:melon"
   }

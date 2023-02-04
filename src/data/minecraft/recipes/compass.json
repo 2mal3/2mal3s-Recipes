@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [" # ", "#X#", " # "],
   "key": {
     "#": {
       "tag": "2re:metal"
@@ -9,6 +8,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
   "result": {
     "item": "minecraft:compass"
   }

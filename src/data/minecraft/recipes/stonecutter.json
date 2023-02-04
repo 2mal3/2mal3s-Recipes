@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [" I ", "###"],
   "key": {
     "I": {
       "tag": "2re:metal"
@@ -9,6 +8,10 @@
       "tag": "2re:polished_stone"
     }
   },
+  "pattern": [
+    " I ",
+    "###"
+  ],
   "result": {
     "item": "minecraft:stonecutter"
   }

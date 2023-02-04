@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "dead_coral_blocks",
-  "pattern": ["##", "##"],
   "key": {
     "#": [
       {
@@ -12,6 +11,10 @@
       }
     ]
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
     "item": "minecraft:dead_horn_coral_block",
     "count": 1

@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "activator_rail",
-  "pattern": ["XSX", "X#X", "XSX"],
   "key": {
     "#": {
       "item": "minecraft:redstone_torch"
@@ -13,6 +12,11 @@
       "tag": "2re:metal"
     }
   },
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
   "result": {
     "item": "minecraft:activator_rail",
     "count": 6

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["#D", "D#"],
   "key": {
     "#": {
       "item": "minecraft:cobblestone"
@@ -9,6 +8,10 @@
       "item": "minecraft:diorite"
     }
   },
+  "pattern": [
+    "#D",
+    "D#"
+  ],
   "result": {
     "item": "minecraft:calcite",
     "count": 4

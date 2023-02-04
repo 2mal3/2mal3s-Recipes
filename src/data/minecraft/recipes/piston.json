@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["TTT", "#X#", "#R#"],
   "key": {
     "R": {
       "item": "minecraft:redstone"
@@ -15,6 +14,11 @@
       "tag": "2re:metal"
     }
   },
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
   "result": {
     "item": "minecraft:piston"
   }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "#S#", "T T"],
   "key": {
     "#": {
       "item": "minecraft:leather"
@@ -12,6 +11,11 @@
       "item": "minecraft:tripwire_hook"
     }
   },
+  "pattern": [
+    "###",
+    "#S#",
+    "T T"
+  ],
   "result": {
     "item": "minecraft:saddle",
     "count": 1

@@ -1,6 +1,5 @@
 {
   "type": "crafting_shaped",
-  "pattern": [" # ", "#X#", "III"],
   "key": {
     "#": {
       "item": "minecraft:redstone_torch"
@@ -12,6 +11,11 @@
       "tag": "2re:polished_stone"
     }
   },
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
   "result": {
     "item": "minecraft:comparator"
   }

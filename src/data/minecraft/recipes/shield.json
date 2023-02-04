@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["iOi", "iOi", " i "],
   "key": {
     "i": {
       "item": "minecraft:iron_ingot"
@@ -9,6 +8,11 @@
       "tag": "minecraft:planks"
     }
   },
+  "pattern": [
+    "iOi",
+    "iOi",
+    " i "
+  ],
   "result": {
     "item": "minecraft:shield",
     "count": 1

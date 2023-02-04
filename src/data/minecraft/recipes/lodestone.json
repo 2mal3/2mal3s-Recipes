@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "#N#", "###"],
   "key": {
     "#": {
       "item": "minecraft:chiseled_stone_bricks"
@@ -9,6 +8,11 @@
       "item": "minecraft:netherite_scrap"
     }
   },
+  "pattern": [
+    "###",
+    "#N#",
+    "###"
+  ],
   "result": {
     "item": "minecraft:lodestone",
     "count": 1

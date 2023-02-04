@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "coral_blocks",
-  "pattern": ["##", "##"],
   "key": {
     "#": [
       {
@@ -12,6 +11,10 @@
       }
     ]
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
     "item": "minecraft:tube_coral_block",
     "count": 1

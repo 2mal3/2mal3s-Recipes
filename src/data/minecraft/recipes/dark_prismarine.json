@@ -1,6 +1,5 @@
 {
   "type": "crafting_shaped",
-  "pattern": ["SSS", "SIS", "SSS"],
   "key": {
     "S": {
       "item": "minecraft:prismarine"
@@ -9,6 +8,11 @@
       "item": "minecraft:ink_sac"
     }
   },
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
   "result": {
     "item": "minecraft:dark_prismarine",
     "count": 8

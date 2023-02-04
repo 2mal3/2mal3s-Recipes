@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["i i", "iCi", " i "],
   "key": {
     "i": {
       "tag": "2re:metal"
@@ -9,6 +8,11 @@
       "item": "minecraft:chest"
     }
   },
+  "pattern": [
+    "i i",
+    "iCi",
+    " i "
+  ],
   "result": {
     "item": "minecraft:hopper",
     "count": 2

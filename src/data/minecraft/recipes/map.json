@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "map",
-  "pattern": ["###", "#X#", "###"],
   "key": {
     "#": {
       "item": "minecraft:paper"
@@ -10,6 +9,11 @@
       "item": "minecraft:compass"
     }
   },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "result": {
     "item": "minecraft:map"
   }

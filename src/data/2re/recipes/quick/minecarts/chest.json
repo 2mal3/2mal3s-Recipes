@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "chest_minecart",
-  "pattern": ["iHi", "iii"],
   "key": {
     "i": {
       "item": "minecraft:iron_ingot"
@@ -10,6 +9,10 @@
       "item": "minecraft:chest"
     }
   },
+  "pattern": [
+    "iHi",
+    "iii"
+  ],
   "result": {
     "item": "minecraft:chest_minecart",
     "count": 1

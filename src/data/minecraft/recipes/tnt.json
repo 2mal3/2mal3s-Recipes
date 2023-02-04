@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["X#X", "#X#", "X#X"],
   "key": {
     "#": {
       "tag": "minecraft:sand"
@@ -9,6 +8,11 @@
       "item": "minecraft:gunpowder"
     }
   },
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
   "result": {
     "item": "minecraft:tnt",
     "count": 2

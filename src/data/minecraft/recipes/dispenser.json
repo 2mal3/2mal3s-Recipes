@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "dispenser",
-  "pattern": ["###", "#X#", "#R#"],
   "key": {
     "R": {
       "item": "minecraft:redstone"
@@ -13,6 +12,11 @@
       "item": "minecraft:bow"
     }
   },
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
   "result": {
     "item": "minecraft:dispenser"
   }

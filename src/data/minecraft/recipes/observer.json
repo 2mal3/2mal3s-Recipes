@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "RRQ", "###"],
   "key": {
     "Q": {
       "item": "minecraft:quartz"
@@ -12,6 +11,11 @@
       "tag": "minecraft:stone_crafting_materials"
     }
   },
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
   "result": {
     "item": "minecraft:observer"
   }

@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": ["SSS", "SCS", "SSS"],
   "key": {
     "C": {
       "item": "minecraft:echo_shard"
@@ -10,6 +9,11 @@
       "item": "minecraft:disc_fragment_5"
     }
   },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
   "result": {
     "item": "minecraft:music_disc_5"
   }

@@ -1,11 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["#"],
   "key": {
     "#": {
       "item": "minecraft:brown_mushroom_block"
     }
   },
+  "pattern": [
+    "#"
+  ],
   "result": {
     "item": "minecraft:brown_mushroom",
     "count": 4
