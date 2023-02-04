@@ -3,7 +3,7 @@
   "pattern": [" I ", "###"],
   "key": {
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "2re:metal"
     },
     "#": {
       "tag": "2re:polished_stone"

@@ -3,7 +3,7 @@
   "pattern": ["i i", "iCi", " i "],
   "key": {
     "i": {
-      "item": "minecraft:iron_ingot"
+      "tag": "2re:metal"
     },
     "C": {
       "item": "minecraft:chest"
