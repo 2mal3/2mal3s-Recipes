@@ -40,6 +40,17 @@ for name, recipe in vanilla_recipes.items():
 
         recipe name modified_recipe_
 
+    # Cheaper trapdoor
+    if name.endswith("_trapdoor"):
+        modified_recipe_ = recipe.data
+
+        if not "iron" in name:
+            modified_recipe_["result"]["count"] = 6
+
+        modified_recipe_["group"] = "trapdoor"
+
+        recipe name modified_recipe_
+
     # Cheaper glass panes
     if name.endswith("_stained_glass_pane") or name == "minecraft:glass_pane":
         modified_recipe = recipe.data
