@@ -3,7 +3,8 @@ name: Lint
 on:
   push:
       paths:
-        - "**.mc"
+        - "**.bolt"
+        - "**.json"
   pull_request:
   workflow_dispatch:
 
