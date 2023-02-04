@@ -20,9 +20,13 @@ require:
   - bolt
 
 meta:
+  vanilla:
+    version: "1.19.3"
+
   bolt:
     entrypoint:
       - 2re:minecraft
+
   installation_advancement:
     icon:
       item: minecraft:crafting_table
