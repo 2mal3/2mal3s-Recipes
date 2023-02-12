@@ -1,12 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "undo_slab",
-  "pattern": ["##"],
   "key": {
     "#": {
       "item": "minecraft:polished_blackstone_slab"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "minecraft:polished_blackstone",
     "count": 1

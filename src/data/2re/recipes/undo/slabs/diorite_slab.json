@@ -1,12 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "undo_slab",
-  "pattern": ["##"],
   "key": {
     "#": {
       "item": "minecraft:diorite_slab"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "minecraft:diorite",
     "count": 1
