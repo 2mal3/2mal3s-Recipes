@@ -1,14 +1,16 @@
 
 ### Added
 
-- recipe for crafting Enchanting Bottles with Sculk (thanks to [@Jasdan](https://www.planetminecraft.com/member/jasdan/))
-- cheaper Slime Block crafting
-- cheaper Bone Block crafting
+- harder music disc 5 recipe
+- copper ingots have more uses in more recipes (thanks to @Baxmann)
 
 ### Changed
 
-- some ore recipes require their raw variants instead of their ingots
+- changed name from "2mal3's Recipes Datapack" to "2mal3's Recipes"
+- updated default minecraft recipes to use categories
+- updated recipes to use mangrove wood
+- [internal] integrated [beet](https://github.com/mcbeet/beet) in build process
 
-### Removed
+### Fixed
 
-- recipe for crafting Enchanting Bottles with Rotten Flesh or Spider Eyes (thanks to [@Jasdan](https://www.planetminecraft.com/member/jasdan/) and [@Tarnex](https://www.planetminecraft.com/member/tarnex/))
+- typos

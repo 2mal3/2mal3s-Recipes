@@ -2,7 +2,7 @@ id: 2re
 name: 2mal3s Recipes
 description: "Adds, changes fixes and upgrades 450+ recipes to improve the overall game experience while still keeping the vanilla feel."
 author: 2mal3
-version: "v1.6.0"
+version: "v1.7.0"
 minecraft: "1.19"
 
 output: build
