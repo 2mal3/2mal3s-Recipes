@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": ["minecraft:glowstone_dust", "minecraft:glow_ink_sac"]
+  "values": [
+    "minecraft:glowstone_dust",
+    "minecraft:glow_ink_sac"
+  ]
 }

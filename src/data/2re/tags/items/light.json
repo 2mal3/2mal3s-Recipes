@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": ["minecraft:torch", "#minecraft:candles"]
+  "values": [
+    "minecraft:torch",
+    "#minecraft:candles"
+  ]
 }
