@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "undo_stairs",
+  "pattern": ["##", "##"],
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:mangrove_planks",
+    "count": 3
+  }
+}
