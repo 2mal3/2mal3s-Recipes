@@ -3,11 +3,15 @@ name: Release
 on:
   push:
     tags:
-      - "v*.*.*"
+      - 'v*.*.*'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  NAME: '2mal3s-Recipes'
+  MODRINTH_ID: 'hIlFLwrl'
 
 jobs:
   build:
@@ -37,23 +41,22 @@ jobs:
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
         run: poetry install
 
-      - name: Build datapack
+      - name: Build
         run: poetry run beet
 
       - name: Squash datapack
         uses: ComunidadAylas/PackSquash-action@v3
         with:
-          path: build/2mal3s-Recipes
+          path: build/${{ env.NAME }}
           artifact_name: datapack-raw
-          force_include_files: icon.png
       - name: Download datapack-raw
         uses: actions/download-artifact@v3
         with:
           name: datapack-raw
       - name: Finish datapack
         run: |
-          mv pack.zip 2mal3s-Recipes.zip
-          zip -u 2mal3s-Recipes.zip LICENSE.txt README.md CHANGELOG.md
+          mv pack.zip ${{ env.NAME }}.zip
+          zip -u ${{ env.NAME }} LICENSE.txt README.md CHANGELOG.md
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -61,7 +64,7 @@ jobs:
           name: artifact
           path: |
             CHANGELOG.md
-            2mal3s-Recipes.zip
+            ${{ env.NAME }}.zip
 
   release-github:
     runs-on: ubuntu-latest
@@ -76,10 +79,10 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          name: 2mal3s-Recipes ${{github.ref_name}}
+          name: ${{ env.NAME }} ${{github.ref_name}}
           body_path: CHANGELOG.md
           files: |
-            2mal3s-Recipes.zip
+            ${{ env.NAME }}.zip
 
   release-modrinth:
     runs-on: ubuntu-latest
@@ -94,10 +97,10 @@ jobs:
       - name: Publish on Modrinth
         uses: Kir-Antipov/mc-publish@v3.2
         with:
-          modrinth-id: hIlFLwrl
+          modrinth-id: ${{ env.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          files: 2mal3s-Recipes.zip
-          name: 2mal3s Recipes ${{github.ref_name}}
+          files-primary: ${{ env.NAME }}.zip
+          name: ${{ env.NAME }} ${{github.ref_name}}
           version: ${{github.ref_name}}
           version-type: release
           changelog-file: CHANGELOG.md

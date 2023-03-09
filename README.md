@@ -31,3 +31,5 @@ The 2mal3's Recipes datapack adds, changes, fixes and upgrades over 400 differen
 - compatible with other datapacks that do not add or change too many recipes themselves
 - to uninstall, simply delete the datapack file
 - build using [beet](https://github.com/mcbeet/beet)
+
+_v1.0.2_

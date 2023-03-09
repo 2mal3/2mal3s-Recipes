@@ -2,12 +2,16 @@ name: Lint
 
 on:
   push:
-      paths:
-        - "**.bolt"
-        - "**.json"
-        - "beet.yaml"
+    paths:
+      - '**.bolt'
+      - '**.json'
+      - 'beet.yaml'
   pull_request:
   workflow_dispatch:
+
+env:
+  VERSION: '1.19'
+  NAME: '2mal3s-Recipes'
 
 jobs:
   build:
@@ -43,7 +47,7 @@ jobs:
         with:
           name: artifact
           path: |
-            build/2mal3s-Recipes
+            build/${{ env.NAME }}
 
   mc-commands:
     runs-on: ubuntu-latest
@@ -58,9 +62,9 @@ jobs:
       - name: Check minecraft commands
         uses: mcbeet/check-commands@v1
         with:
-          version: "0.62.0"
-          source: "."
-          minecraft: "1.19"
+          version: '0.62.0'
+          source: '.'
+          minecraft: ${{ env.VERSION }}
           stats: true
 
   json:
@@ -79,4 +83,4 @@ jobs:
       - name: Install jsonlint
         run: npm install -g jsonlint
       - name: Lint json files
-        run: for file in $(find . -name "*.json"); do jsonlint $file -c -q; done
+        run: for file in $(find . -name '*.json'); do jsonlint $file -c -q; done
