@@ -26,6 +26,7 @@ meta:
   bolt:
     entrypoint:
       - 2re:minecraft
+      - 2re:2re/wood_cut
 
   installation_advancement:
     icon:
