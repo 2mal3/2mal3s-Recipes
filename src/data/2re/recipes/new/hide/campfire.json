@@ -1,5 +1,6 @@
 {
   "type": "minecraft:campfire_cooking",
+  "category": "misc",
   "ingredient": {
     "item": "minecraft:rotten_flesh"
   },

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:blasting",
+  "category": "misc",
   "group": "iron_ingot",
   "ingredient": {
     "tag": "2re:iron_recycle"

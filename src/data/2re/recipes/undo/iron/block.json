@@ -1,5 +1,6 @@
 {
   "type": "minecraft:blasting",
+  "category": "blocks",
   "group": "iron_block",
   "ingredient": {
     "tag": "minecraft:anvil"

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "group": "dead_coral_blocks",
   "key": {
     "#": [

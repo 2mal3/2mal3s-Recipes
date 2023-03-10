@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smoking",
+  "category": "misc",
   "ingredient": {
     "item": "minecraft:rotten_flesh"
   },
