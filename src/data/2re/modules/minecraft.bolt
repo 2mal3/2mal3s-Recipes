@@ -8,7 +8,7 @@ for name, recipe in vanilla_recipes.items():
     if name.endswith("_stairs"):
         modified_recipe = recipe.data
 
-        modified_recipe["result"]["count"] = 8
+        modified_recipe["result"]["count"] = 6
         modified_recipe["group"] = "stairs"
 
         recipe name modified_recipe
