@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
   "key": {
     "#": {
       "tag": "minecraft:stone_crafting_materials"
@@ -8,7 +9,10 @@
       "item": "minecraft:stick"
     }
   },
-  "pattern": ["X", "#"],
+  "pattern": [
+    "X",
+    "#"
+  ],
   "result": {
     "item": "minecraft:lever"
   }

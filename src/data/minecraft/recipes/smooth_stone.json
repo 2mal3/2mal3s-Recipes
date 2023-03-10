@@ -1,5 +1,6 @@
 {
   "type": "smelting",
+  "category": "bocks",
   "ingredient": {
     "tag": "2re:polished_stone"
   },
