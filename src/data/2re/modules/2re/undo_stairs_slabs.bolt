@@ -1,0 +1,48 @@
+from beet.contrib.vanilla import Vanilla
+
+
+vanilla_recipes = ctx.inject(Vanilla).mount("data/minecraft/recipes").data.recipes
+for name, recipe in vanilla_recipes.items():
+    if not name.endswith("stairs") and not name.endswith("slab"):
+        continue
+
+    # Skip some very very werd recipes
+    if type(recipe.data["key"]["#"]) != dict:
+        continue
+
+    if name.endswith("stairs"):
+        recipe f"2re:undo/stairs/{name[10:]}" {
+            "type": "minecraft:crafting_shaped",
+            "group": "undo_stairs",
+            "key": {
+                "#": {
+                    "item": f"{recipe.data['result']['item']}"
+                }
+            },
+            "pattern": [
+                "##",
+                "##"
+            ],
+            "result": {
+                "item": f"{recipe.data['key']['#']['item']}",
+                "count": 3
+            }
+        }
+
+    if name.endswith("slab"):
+        recipe f"2re:undo/slabs/{name[10:]}" {
+            "type": "minecraft:crafting_shaped",
+            "group": "undo_slab",
+            "key": {
+                "#": {
+                    "item": f"{recipe.data['result']['item']}"
+                }
+            },
+            "pattern": [
+                "##"
+            ],
+            "result": {
+                "item": f"{recipe.data['key']['#']['item']}",
+                "count": 1
+            }
+        }
