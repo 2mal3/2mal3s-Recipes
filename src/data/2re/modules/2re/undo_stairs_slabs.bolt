@@ -13,6 +13,7 @@ for name, recipe in vanilla_recipes.items():
     if name.endswith("stairs"):
         recipe f"2re:undo/stairs/{name[10:]}" {
             "type": "minecraft:crafting_shaped",
+            "category": "building",
             "group": "undo_stairs",
             "key": {
                 "#": {
@@ -32,6 +33,7 @@ for name, recipe in vanilla_recipes.items():
     if name.endswith("slab"):
         recipe f"2re:undo/slabs/{name[10:]}" {
             "type": "minecraft:crafting_shaped",
+            "category": "building",
             "group": "undo_slab",
             "key": {
                 "#": {
