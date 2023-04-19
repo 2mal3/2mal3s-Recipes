@@ -28,6 +28,7 @@ meta:
       - 2re:minecraft
       - 2re:2re/wood_cut
       - 2re:2re/undo_stairs_slabs
+      - 2re:2re/stone_tools
 
   installation_advancement:
     icon:
