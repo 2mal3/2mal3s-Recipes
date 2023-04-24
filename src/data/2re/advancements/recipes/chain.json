@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:chain"]}]}}}, "rewards": {"recipes": ["2re:new/chainmail/boots", "2re:new/chainmail/leggings", "2re:new/chainmail/chestplate", "2re:new/chainmail/helmet"]}}

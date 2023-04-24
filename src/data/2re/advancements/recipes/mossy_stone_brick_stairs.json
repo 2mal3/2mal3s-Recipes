@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:mossy_stone_brick_stairs"]}]}}}, "rewards": {"recipes": ["2re:undo/stairs/mossy_stone_brick_stairs"]}}

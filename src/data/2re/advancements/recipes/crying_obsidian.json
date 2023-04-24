@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:crying_obsidian"]}]}}}, "rewards": {"recipes": ["2re:obsidian_from_crying"]}}

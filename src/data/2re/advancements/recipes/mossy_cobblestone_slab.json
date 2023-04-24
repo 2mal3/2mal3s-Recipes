@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:mossy_cobblestone_slab"]}]}}}, "rewards": {"recipes": ["2re:undo/slabs/mossy_cobblestone_slab"]}}

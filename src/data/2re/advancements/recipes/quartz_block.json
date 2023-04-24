@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:quartz_block"]}]}}}, "rewards": {"recipes": ["2re:undo/quartz"]}}

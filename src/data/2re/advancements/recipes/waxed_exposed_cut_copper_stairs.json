@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:waxed_exposed_cut_copper_stairs"]}]}}}, "rewards": {"recipes": ["2re:undo/stairs/waxed_exposed_cut_copper"]}}

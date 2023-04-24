@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:sunflower"]}]}}}, "rewards": {"recipes": ["2re:quick/flower_duplication/sunflower"]}}

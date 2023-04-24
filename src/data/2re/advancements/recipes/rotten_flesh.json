@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:rotten_flesh"]}]}}}, "rewards": {"recipes": ["2re:new/hide/smoking", "2re:new/hide/campfire"]}}

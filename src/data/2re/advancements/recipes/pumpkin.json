@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:pumpkin"]}]}}}, "rewards": {"recipes": ["2re:dyes/orange/from_pumpkin"]}}
