@@ -25,9 +25,8 @@ The 2mal3's Recipes datapack adds, changes, fixes and upgrades over 400 differen
 
 ## Technical Notes
 
-- works in Vanilla and Fabric in 1.19.x in Single and Multiplayer
-- not tested with Forge, Spigot, PaperSpigot, etc. but probably work
-- bug reports and suggestions are best done on [GitHub](https://github.com/2mal3/2mal3s-Recipes/issues)
+- **ONLY** the latest version of the datapack for Fabric and Vanilla 1.19.4 is supported
+- bug reports and suggestions are **ONLY** accepted on [GitHub](https://github.com/2mal3/2mal3s-Recipes/issues)
 - compatible with other datapacks that do not add or change too many recipes themselves
 - to uninstall, simply delete the datapack file
 - build using [beet](https://github.com/mcbeet/beet)
