@@ -76,3 +76,11 @@ for name, recipe in vanilla_recipes.items():
         }
 
         recipe name modified_recipe
+
+    # Golden Carrot with gold ingots
+    if name.endswith("golden_carrot"):
+        modified_recipe = recipe.data
+
+        modified_recipe["key"]["#"]["item"] = "minecraft:gold_ingot"
+
+        recipe name modified_recipe
