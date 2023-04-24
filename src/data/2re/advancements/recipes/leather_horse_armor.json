@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:leather_horse_armor"]}]}}}, "rewards": {"recipes": ["2re:undo/leather/leggings"]}}

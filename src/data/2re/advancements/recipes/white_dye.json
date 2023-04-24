@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:white_dye"]}]}}}, "rewards": {"recipes": ["2re:dyes/white/concrete"]}}

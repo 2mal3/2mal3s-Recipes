@@ -25,7 +25,7 @@ results = [
 ]
 
 for type in wood_types:
-    prefix = f"2re:wood_cut/{type}/"
+    prefix = f"2re:wood_cut/{type}"
 
     for result in results:
         recipe f"{prefix}/{result[0]}" {

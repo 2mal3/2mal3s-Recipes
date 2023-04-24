@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:beehive"]}]}}}, "rewards": {"recipes": ["2re:new/bee_nest"]}}

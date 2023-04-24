@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:raw_gold"]}]}}}, "rewards": {"recipes": ["2re:new/ores/stone/gold", "2re:new/ores/stone/gold", "2re:new/ores/stone/gold", "2re:new/ores/stone/gold"]}}

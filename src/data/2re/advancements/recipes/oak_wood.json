@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:oak_wood"]}]}}}, "rewards": {"recipes": ["2re:wood_cut/oak/wood", "2re:wood_cut/spruce/wood", "2re:wood_cut/mangrove/wood"]}}

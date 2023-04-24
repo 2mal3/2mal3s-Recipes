@@ -15,6 +15,7 @@ data_pack:
 pipeline:
   - mecha
   - plugins.remove_empty_functions
+  - plugins.generate_recipe_advancements
   - plugins.installation_advancement
 require:
   - bolt

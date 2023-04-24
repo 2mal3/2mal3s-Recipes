@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:hay_block"]}]}}}, "rewards": {"recipes": ["2re:quick/bred", "2re:quick/bred", "2re:quick/bred"]}}

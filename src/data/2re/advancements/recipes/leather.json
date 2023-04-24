@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:leather"]}]}}}, "rewards": {"recipes": ["2re:quick/book", "2re:new/saddle", "2re:new/bundle"]}}

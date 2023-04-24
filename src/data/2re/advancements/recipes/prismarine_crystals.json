@@ -1,1 +1,0 @@
-{"parent": "minecraft:recipes/root", "criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:prismarine_crystals"]}]}}}, "rewards": {"recipes": ["2re:trident_repair"]}}
