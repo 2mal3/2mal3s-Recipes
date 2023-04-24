@@ -20,7 +20,7 @@ The 2mal3's Recipes datapack adds, changes, fixes and upgrades over 400 differen
 - wood can be cut in the stonecutter
 - recipes for quicker crafting for example sticks, chests, minecarts
 - coloured concrete can be recoloured
--dye can be mixed more and made from more resources
+- dye can be mixed more and made from more resources
 - some small recipes are shapeless
 
 ## Technical Notes
@@ -32,4 +32,4 @@ The 2mal3's Recipes datapack adds, changes, fixes and upgrades over 400 differen
 - to uninstall, simply delete the datapack file
 - build using [beet](https://github.com/mcbeet/beet)
 
-_v1.0.2_
+_v1.5.0_

@@ -9,8 +9,10 @@ output: build
 
 data_pack:
   name: 2mal3s-Recipes
+  description: "v1.7.1"
   load:
     - src
+    - pack.png: "pack.png"
 
 pipeline:
   - mecha

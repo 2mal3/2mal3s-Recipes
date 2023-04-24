@@ -62,7 +62,7 @@ jobs:
       - name: Check minecraft commands
         uses: mcbeet/check-commands@v1
         with:
-          version: '0.62.0'
+          version: '0.67.0'
           source: '.'
           minecraft: ${{ env.VERSION }}
           stats: true
