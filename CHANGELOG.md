@@ -1,10 +1,8 @@
+### Added
+
+- recipe to convert Wooden Tools to Stone Tools (idea by [@Baxmann](https://www.planetminecraft.com/member/baxmann/))
+- Golden Carrots require Gold Ingots instead of Gold Nuggets
 
 ### Changed
 
-- nerfed cheaper stairs from 8 to 6
-- new pack icon
-
-### Fixed
-
-- finally categories for all recipes
-- broken quick minecart hopper recipe
+- [internal] advancement generator rewritten
