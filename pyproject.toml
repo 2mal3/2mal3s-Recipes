@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.10"
 beet = "^0.86.0"
 mecha = "^0.71.2"
-bolt = "^0.31.0"
+bolt = "^0.33.2"
 
 
 [build-system]

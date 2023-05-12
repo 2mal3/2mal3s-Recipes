@@ -28,19 +28,19 @@ image = ["Pillow"]
 
 [[package]]
 name = "bolt"
-version = "0.31.0"
+version = "0.33.2"
 description = "Supercharge Minecraft commands with Python"
 category = "main"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "bolt-0.31.0-py3-none-any.whl", hash = "sha256:89b54ef0048a82f60e84e4dec5bfc118ffd13576ce9cf7600099b88408a9a41c"},
-    {file = "bolt-0.31.0.tar.gz", hash = "sha256:f95d164e554bb602fbdcfafa59fbc694843a9aa5247829677b10644db624d51a"},
+    {file = "bolt-0.33.2-py3-none-any.whl", hash = "sha256:6bf119c70d927eaaa3e9a525f986367cb29c2356020b01e586d982fa6dc036fb"},
+    {file = "bolt-0.33.2.tar.gz", hash = "sha256:13e28b54ebf581254535a3406fbb075219b1d8a9886330b392c40788c0822cfb"},
 ]
 
 [package.dependencies]
-beet = ">=0.83.1"
-mecha = ">=0.67.0"
+beet = ">=0.86.0"
+mecha = ">=0.69.0"
 
 [[package]]
 name = "click"
@@ -388,4 +388,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "840ea6e408eca505ef812150698b227c8151c7f9545d4073fdd1a1964c395001"
+content-hash = "4a2c68ea0f32ada81d83ce4b824eca246eba5090a019181aae7bb9c8fbb37431"
