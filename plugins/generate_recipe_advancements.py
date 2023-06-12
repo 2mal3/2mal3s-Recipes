@@ -55,9 +55,6 @@ def get_advancements(ctx: Context) -> dict:
             "minecraft:stonecutting",
         ]:
             ingredients = get_ingredient(content["ingredient"])
-        if content["type"] == "minecraft:smithing":
-            ingredients += get_ingredient(content["base"])
-            ingredients += get_ingredient(content["addition"])
         ingredients = remove_duplicates(ingredients)
 
         ingredients.append(get_result(content["result"]))
