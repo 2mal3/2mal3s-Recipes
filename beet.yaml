@@ -3,7 +3,7 @@ name: 2mal3s Recipes
 description: "Adds, changes fixes and upgrades 450+ recipes to improve the overall game experience while still keeping the vanilla feel."
 author: 2mal3
 version: "v1.8.0"
-minecraft: "1.19"
+minecraft: "1.20"
 
 output: build
 
@@ -24,7 +24,7 @@ require:
 
 meta:
   vanilla:
-    version: "1.19.3"
+    version: "1.20.1"
 
   bolt:
     entrypoint:
