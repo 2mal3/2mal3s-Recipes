@@ -1,8 +1,7 @@
-### Added
-
-- recipe to convert Wooden Tools to Stone Tools (idea by [@Baxmann](https://www.planetminecraft.com/member/baxmann/))
-- Golden Carrots require Gold Ingots instead of Gold Nuggets
-
 ### Changed
 
-- [internal] advancement generator rewritten
+- updated to Minecraft 1.20.1
+
+### Fixed
+
+- couldn't craft gold nuggets (thanks to @GloriousCouchPotato)

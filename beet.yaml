@@ -2,14 +2,14 @@ id: 2re
 name: 2mal3s Recipes
 description: "Adds, changes fixes and upgrades 450+ recipes to improve the overall game experience while still keeping the vanilla feel."
 author: 2mal3
-version: "v1.8.0"
+version: "v1.8.1"
 minecraft: "1.20"
 
 output: build
 
 data_pack:
   name: 2mal3s-Recipes
-  description: "v1.8.0"
+  description: "v1.8.1"
   load:
     - src
     - pack.png: "pack.png"
