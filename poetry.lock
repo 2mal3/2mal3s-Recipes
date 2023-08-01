@@ -160,13 +160,13 @@ files = [
 
 [[package]]
 name = "mecha"
-version = "0.73.0"
+version = "0.73.1"
 description = "A powerful Minecraft command library"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "mecha-0.73.0-py3-none-any.whl", hash = "sha256:28171b3b836b6401f31144cf11c1a810e10b8bef44f0fea0f2259dd0d204a1be"},
-    {file = "mecha-0.73.0.tar.gz", hash = "sha256:30d1fc261156c40a7367b7209a6cabeb48a68f9d412c3f8dc0553f2251eea077"},
+    {file = "mecha-0.73.1-py3-none-any.whl", hash = "sha256:0dcb515f29ee02d9abb2b8cc18a7a95658011ee5e11cd4a29d43f14d70ae28cb"},
+    {file = "mecha-0.73.1.tar.gz", hash = "sha256:7139d2df2fc69fbc0531dcdb7356bc1ee4c2efb8d5198dae45e5524d2c519b65"},
 ]
 
 [package.dependencies]
@@ -372,4 +372,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "19cf06dd286bee55dbcf96aef7e097dff732188b3adbf29f90a259764aa38c9f"
+content-hash = "d094f4a86df74f3612d70b0c0949c256fa6bd5bd8e67799341fc2fb42644d3f2"
