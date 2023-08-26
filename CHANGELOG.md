@@ -1,7 +1,7 @@
-### Changed
+### Added
 
-- updated to Minecraft 1.20.1
+- Enchanted Golden Apple recipe with Nether Star (thanks to [@EnderWatt](https://www.planetminecraft.com/member/enderwatt/) and [@Mabra_](https://www.planetminecraft.com/member/mabra_/))
 
 ### Fixed
 
-- couldn't craft gold nuggets (thanks to @GloriousCouchPotato)
+- Prismarine duping (#27) (thanks to @BioTechproject27)
