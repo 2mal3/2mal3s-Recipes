@@ -1,13 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:smelting",
   "category": "misc",
   "group": "red_dye",
-  "ingredients": [
+  "ingredient": [
     {
       "item": "minecraft:beetroot"
     }
   ],
-  "result": {
-    "item": "minecraft:beetroot_seeds"
-  }
+  "result": "minecraft:red_dye"
 }
