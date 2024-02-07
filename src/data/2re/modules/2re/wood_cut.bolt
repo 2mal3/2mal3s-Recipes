@@ -7,6 +7,7 @@ wood_types = [
     "acacia",
     "dark_oak",
     "mangrove",
+    "cherry"
     # "crimson",
     # "warped"
 ]
