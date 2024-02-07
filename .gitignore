@@ -1,3 +1,7 @@
-.beet_cache
-build
-__pycache__
+# Beet
+.beet_cache/
+build/
+
+# Python
+__pycache__/
+.venv/
