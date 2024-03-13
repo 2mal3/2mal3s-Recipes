@@ -62,12 +62,6 @@ for name, recipe in vanilla_recipes.items():
 
         recipe name modified_recipe
 
-    # Golden Carrot with gold ingots
-    elif name.endswith("golden_carrot"):
-        modified_recipe["key"]["#"]["item"] = "minecraft:gold_ingot"
-
-        recipe name modified_recipe
-
     # Hanging Signs with Planks
     elif name.endswith("_hanging_sign"):
         modified_recipe["result"]["count"] = 3
