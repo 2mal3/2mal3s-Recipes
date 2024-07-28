@@ -22,9 +22,6 @@ require:
   - bolt
 
 meta:
-  vanilla:
-    version: "1.20"
-
   bolt:
     entrypoint:
       - 2re:minecraft

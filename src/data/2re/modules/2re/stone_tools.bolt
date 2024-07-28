@@ -38,7 +38,9 @@ def fake_lambda_1(e):
 def fake_lambda_2(e):
     return f"stone_{e[0]}"
 
-vanilla_recipes = ctx.inject(Vanilla).mount("data/minecraft/recipes").data.recipes
+
+vanilla = ctx.inject(Vanilla)
+vanilla_recipes = vanilla.releases[ctx.minecraft_version].data.recipes
 for name, recipe in vanilla_recipes.items():
     if name not in list(map(fake_lambda_1, tools)):
         continue

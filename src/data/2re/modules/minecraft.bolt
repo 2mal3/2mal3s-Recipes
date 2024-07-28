@@ -1,7 +1,8 @@
 from beet.contrib.vanilla import Vanilla
 
 
-vanilla_recipes = ctx.inject(Vanilla).mount("data/minecraft/recipes").data.recipes
+vanilla = ctx.inject(Vanilla)
+vanilla_recipes = vanilla.releases[ctx.minecraft_version].data.recipes
 for name, recipe in vanilla_recipes.items():
     modified_recipe = recipe.data
 

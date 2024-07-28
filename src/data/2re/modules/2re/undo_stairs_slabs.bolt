@@ -1,7 +1,8 @@
 from beet.contrib.vanilla import Vanilla
 
 
-vanilla_recipes = ctx.inject(Vanilla).mount("data/minecraft/recipes").data.recipes
+vanilla = ctx.inject(Vanilla)
+vanilla_recipes = vanilla.releases[ctx.minecraft_version].data.recipes
 for name, recipe in vanilla_recipes.items():
     if not name.endswith("stairs") and not name.endswith("slab"):
         continue
@@ -17,7 +18,7 @@ for name, recipe in vanilla_recipes.items():
             "group": "undo_stairs",
             "key": {
                 "#": {
-                    "item": f"{recipe.data['result']['item']}"
+                    "item": f"{recipe.data['result']['id']}"
                 }
             },
             "pattern": [
@@ -37,14 +38,14 @@ for name, recipe in vanilla_recipes.items():
             "group": "undo_slab",
             "key": {
                 "#": {
-                    "item": f"{recipe.data['result']['item']}"
+                    "item": f"{recipe.data['result']['id']}"
                 }
             },
             "pattern": [
                 "##"
             ],
             "result": {
-                "item": f"{recipe.data['key']['#']['item']}",
+                "id": f"{recipe.data['key']['#']['item']}",
                 "count": 1
             }
         }
