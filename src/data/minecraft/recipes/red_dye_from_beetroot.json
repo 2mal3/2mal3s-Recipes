@@ -7,5 +7,7 @@
       "item": "minecraft:beetroot"
     }
   ],
-  "result": "minecraft:red_dye"
+  "result": {
+    "id": "minecraft:red_dye"
+  }
 }

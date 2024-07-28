@@ -3,6 +3,8 @@
   "ingredient": {
     "tag": "minecraft:logs"
   },
-  "result": "minecraft:ladder",
-  "count": 3
+  "result": {
+    "id": "minecraft:ladder",
+    "count": 3
+  }
 }

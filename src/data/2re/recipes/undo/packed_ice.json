@@ -8,7 +8,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:packed_ice",
+    "id": "minecraft:packed_ice",
     "count": 4
   }
 }

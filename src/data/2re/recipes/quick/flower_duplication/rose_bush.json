@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:rose_bush",
+    "id": "minecraft:rose_bush",
     "count": 2
   }
 }

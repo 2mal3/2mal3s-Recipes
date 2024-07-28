@@ -32,6 +32,6 @@
     }
   ],
   "result": {
-    "item": "minecraft:redstone_ore"
+    "id": "minecraft:redstone_ore"
   }
 }

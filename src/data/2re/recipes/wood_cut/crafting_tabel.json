@@ -3,6 +3,8 @@
   "ingredient": {
     "tag": "minecraft:logs"
   },
-  "result": "minecraft:crafting_table",
-  "count": 1
+  "result": {
+    "id": "minecraft:crafting_table",
+    "count": 1
+  }
 }

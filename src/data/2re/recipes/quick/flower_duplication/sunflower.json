@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:sunflower",
+    "id": "minecraft:sunflower",
     "count": 2
   }
 }

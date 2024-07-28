@@ -19,7 +19,7 @@
     " /S"
   ],
   "result": {
-    "item": "minecraft:dispenser",
+    "id": "minecraft:dispenser",
     "count": 1
   }
 }

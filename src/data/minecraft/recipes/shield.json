@@ -15,7 +15,7 @@
     " i "
   ],
   "result": {
-    "item": "minecraft:shield",
+    "id": "minecraft:shield",
     "count": 1
   }
 }

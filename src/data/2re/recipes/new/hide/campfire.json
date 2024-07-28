@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "minecraft:rotten_flesh"
   },
-  "result": "minecraft:rabbit_hide",
   "experience": 0.35,
-  "cookingtime": 600
+  "cookingtime": 600,
+  "result": {
+    "id": "minecraft:rabbit_hide"
+  }
 }

@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:prismarine_bricks"
   },
-  "result": "minecraft:prismarine",
-  "count": 1
+  "result": {
+    "id": "minecraft:prismarine",
+    "count": 1
+  }
 }

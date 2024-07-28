@@ -25,7 +25,7 @@ for name, recipe in vanilla_recipes.items():
                 "##"
             ],
             "result": {
-                "item": f"{recipe.data['key']['#']['item']}",
+                "id": f"{recipe.data['key']['#']['item']}",
                 "count": 3
             }
         }

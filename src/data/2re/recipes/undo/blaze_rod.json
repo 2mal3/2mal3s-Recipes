@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:blaze_rod",
+    "id": "minecraft:blaze_rod",
     "count": 1
   }
 }

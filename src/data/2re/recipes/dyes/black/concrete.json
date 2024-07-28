@@ -14,7 +14,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:black_concrete",
+    "id": "minecraft:black_concrete",
     "count": 8
   }
 }

@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "minecraft:crying_obsidian"
   },
-  "result": "minecraft:obsidian",
   "experience": 0.1,
-  "cookingtime": 300
+  "cookingtime": 300,
+  "result": {
+    "id": "minecraft:obsidian"
+  }
 }

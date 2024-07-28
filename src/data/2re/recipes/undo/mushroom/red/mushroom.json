@@ -10,7 +10,7 @@
     "#"
   ],
   "result": {
-    "item": "minecraft:red_mushroom",
+    "id": "minecraft:red_mushroom",
     "count": 4
   }
 }

@@ -5,7 +5,9 @@
   "ingredient": {
     "item": "minecraft:diamond_ore"
   },
-  "result": "minecraft:diamond",
   "experience": 1.0,
-  "cookingtime": 200
+  "cookingtime": 200,
+  "result": {
+    "id": "minecraft:diamond"
+  }
 }

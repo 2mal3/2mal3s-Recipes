@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:lodestone",
+    "id": "minecraft:lodestone",
     "count": 1
   }
 }

@@ -21,7 +21,7 @@ for tool, count in tools:
             }
         ],
         "result": {
-            "item": f"minecraft:stone_{tool}"
+            "id": f"minecraft:stone_{tool}"
         }
     }
 

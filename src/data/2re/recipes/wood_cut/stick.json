@@ -3,6 +3,8 @@
   "ingredient": {
     "tag": "minecraft:logs"
   },
-  "result": "minecraft:stick",
-  "count": 8
+  "result": {
+    "id": "minecraft:stick",
+    "count": 8
+  }
 }

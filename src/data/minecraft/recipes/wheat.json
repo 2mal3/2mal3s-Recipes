@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:wheat",
+    "id": "minecraft:wheat",
     "count": 4
   }
 }

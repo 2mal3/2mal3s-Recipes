@@ -15,7 +15,7 @@
     "iii"
   ],
   "result": {
-    "item": "minecraft:tnt_minecart",
+    "id": "minecraft:tnt_minecart",
     "count": 1
   }
 }

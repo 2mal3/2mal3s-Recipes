@@ -13,6 +13,6 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:iron_block"
+    "id": "minecraft:iron_block"
   }
 }

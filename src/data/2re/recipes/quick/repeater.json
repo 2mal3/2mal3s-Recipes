@@ -19,7 +19,7 @@
     "SSS"
   ],
   "result": {
-    "item": "minecraft:repeater",
+    "id": "minecraft:repeater",
     "count": 1
   }
 }

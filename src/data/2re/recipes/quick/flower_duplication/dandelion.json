@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:dandelion",
+    "id": "minecraft:dandelion",
     "count": 2
   }
 }
