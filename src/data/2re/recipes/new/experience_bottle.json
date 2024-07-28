@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "experience_bottle",
+  "key": {
+    "#": {
+      "item": "minecraft:sculk"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:experience_bottle",
+    "count": 1
+  }
+}

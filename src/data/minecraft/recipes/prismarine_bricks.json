@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "result": {
+    "item": "minecraft:prismarine_bricks",
+    "count": 4
+  }
+}

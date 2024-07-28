@@ -1,0 +1,74 @@
+from beet.contrib.vanilla import Vanilla
+
+
+vanilla_recipes = ctx.inject(Vanilla).mount("data/minecraft/recipes").data.recipes
+for name, recipe in vanilla_recipes.items():
+    modified_recipe = recipe.data
+
+    # Cheaper stairs
+    if name.endswith("_stairs"):
+        modified_recipe["result"]["count"] = 6
+        modified_recipe["group"] = "stairs"
+
+        recipe name modified_recipe
+
+    # Cheaper glass panes
+    elif name.endswith("_stained_glass_pane") or name == "minecraft:glass_pane":
+        modified_recipe["result"]["count"] = 24
+        modified_recipe["group"] = "glass_pane"
+
+        recipe name modified_recipe
+
+    # Cheaper button
+    elif name.endswith("_button"):
+        modified_recipe["group"] = "button"
+        modified_recipe["result"]["count"] = 8
+
+        recipe name modified_recipe
+
+    # Cheaper pressure plate
+    elif name.endswith("_pressure_plate"):
+        modified_recipe["group"] = "pressure_plate"
+        modified_recipe["result"]["count"] = 4
+
+        recipe name modified_recipe
+
+    # Cheaper trapdoor
+    elif name.endswith("_trapdoor"):
+        if not "iron" in name:
+            modified_recipe["result"]["count"] = 6
+
+        modified_recipe["group"] = "trapdoor"
+
+        recipe name modified_recipe
+
+    # Cheaper glass panes
+    elif name.endswith("_stained_glass_pane") or name == "minecraft:glass_pane":
+        modified_recipe["result"]["count"] = 24
+
+        recipe name modified_recipe
+
+    # Cheaper woods
+    elif (name.endswith("_wood") or name.endswith("_hyphae")) and not name.startswith("minecraft:stripped_"):
+        modified_recipe["result"]["count"] = 4
+
+        recipe name modified_recipe
+
+    # Re-dye wool from every color
+    elif name.endswith("_wool"):
+        modified_recipe["ingredients"][1] = {
+            "tag": "minecraft:wool"
+        }
+
+        recipe name modified_recipe
+
+    # Hanging Signs with Planks
+    elif name.endswith("_hanging_sign"):
+        modified_recipe["result"]["count"] = 3
+
+        item_name = modified_recipe["key"]["#"]["item"]
+        item_name = item_name.replace("stripped_", "")
+        item_name = item_name.replace("log", "planks")
+        modified_recipe["key"]["#"]["item"] = item_name
+
+        recipe name modified_recipe

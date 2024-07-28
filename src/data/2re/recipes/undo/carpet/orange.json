@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wool_from_carpet",
+  "key": {
+    "#": {
+      "item": "minecraft:orange_carpet"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:orange_wool",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "red_dye",
+  "ingredient": [
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": "minecraft:red_dye"
+}

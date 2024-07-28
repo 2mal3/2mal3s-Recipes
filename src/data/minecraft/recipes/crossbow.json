@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "~": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "\u0026": {
+      "tag": "2re:metal"
+    },
+    "$": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "pattern": [
+    "#\u0026#",
+    "~$~",
+    " # "
+  ],
+  "result": {
+    "item": "minecraft:crossbow"
+  }
+}

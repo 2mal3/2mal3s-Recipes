@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hopper_minecart",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "pattern": [
+    "iHi",
+    "iii"
+  ],
+  "result": {
+    "item": "minecraft:hopper_minecart",
+    "count": 1
+  }
+}

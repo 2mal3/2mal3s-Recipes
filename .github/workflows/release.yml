@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 env:
-  NAME: ''
-  MODRINTH_ID: ''
+  NAME: '2mal3s-Recipes'
+  MODRINTH_ID: 'hIlFLwrl'
 
 jobs:
   release:

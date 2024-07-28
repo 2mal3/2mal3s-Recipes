@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "coral_blocks",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:horn_coral"
+      },
+      {
+        "item": "minecraft:horn_coral_fan"
+      }
+    ]
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:horn_coral_block",
+    "count": 1
+  }
+}

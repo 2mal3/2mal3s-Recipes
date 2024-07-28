@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "D": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "pattern": [
+    "#D",
+    "D#"
+  ],
+  "result": {
+    "item": "minecraft:calcite",
+    "count": 4
+  }
+}

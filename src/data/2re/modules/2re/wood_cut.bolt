@@ -1,0 +1,48 @@
+
+wood_types = [
+    "oak",
+    "spruce",
+    "birch",
+    "jungle",
+    "acacia",
+    "dark_oak",
+    "mangrove",
+    "cherry"
+    # "crimson",
+    # "warped"
+]
+
+results = [
+    ["button", 32],
+    ["door", 2],
+    ["fence", 1],
+    ["wood", 1],
+    ["planks", 4],
+    ["pressure_plate", 16],
+    ["sign", 3],
+    ["slab", 8],
+    ["stairs", 5],
+    ["trapdoor", 3]
+]
+
+for type in wood_types:
+    prefix = f"2re:wood_cut/{type}"
+
+    for result in results:
+        recipe f"{prefix}/{result[0]}" {
+            "type": "minecraft:stonecutting",
+            "ingredient": {
+                "tag": f"minecraft:{type}_logs"
+            },
+            "result": f"minecraft:{type}_{result[0]}",
+            "count": result[1]
+        }
+
+    recipe f"{prefix}/log" {
+        "type": "minecraft:stonecutting",
+        "ingredient": {
+            "item": f"minecraft:{type}_wood"
+        },
+        "result": f"minecraft:{type}_log",
+        "count": 1
+    }

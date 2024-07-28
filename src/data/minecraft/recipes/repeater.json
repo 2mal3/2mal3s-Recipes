@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "category": "redstone",
+  "group": "repeater",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "tag": "2re:polished_stone"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "result": {
+    "item": "minecraft:repeater"
+  }
+}

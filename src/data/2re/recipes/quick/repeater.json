@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "repeater",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "tag": "2re:polished_stone"
+    }
+  },
+  "pattern": [
+    "# #",
+    "/#/",
+    "SSS"
+  ],
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

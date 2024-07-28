@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "map",
+  "ingredients": [
+    {
+      "item": "minecraft:filled_map"
+    }
+  ],
+  "result": {
+    "item": "minecraft:map",
+    "count": 1
+  }
+}

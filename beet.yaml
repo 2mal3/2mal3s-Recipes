@@ -1,24 +1,17 @@
-id: ""
-name: ""
-description: ""
-author: "2mal3"
-version: "v0.1.0"
 minecraft: "1.21"
+id: 2re
+name: 2mal3s Recipes
+description: "Adds, changes fixes and upgrades 450+ recipes to improve the overall game experience while still keeping the vanilla feel."
+author: 2mal3
+version: "v1.10.1"
 
 output: "build"
 
 data_pack:
-  name: ""
-  description: "v0.1.0"
+  name: 2mal3s-Recipes
+  description: "v1.10.1"
   load:
     - "src"
-    - pack.png: "pack.png"
-
-
-resource_pack:
-  name:  "-Resourcepack"
-  load:
-    - assets: "assets"
     - pack.png: "pack.png"
 
 pipeline:
@@ -29,12 +22,16 @@ require:
   - bolt
 
 meta:
-  version: 100
+  vanilla:
+    version: "1.20"
 
   bolt:
     entrypoint:
-      - ""
+      - 2re:minecraft
+      - 2re:2re/wood_cut
+      - 2re:2re/undo_stairs_slabs
+      - 2re:2re/stone_tools
 
   installation_advancement:
     icon:
-      id: "minecraft:cobblestone"
+      id: minecraft:crafting_table
