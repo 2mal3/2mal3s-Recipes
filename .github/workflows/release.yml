@@ -37,11 +37,6 @@ jobs:
           cp -r build/${{ env.NAME }}/* .
           zip -r ${{ env.NAME }} LICENSE.txt README.md CHANGELOG.md data pack.mcmeta pack.png
 
-      - name: Pack Resourcepack
-        run: |
-          cp -r build/${{ env.NAME }}-Resourcepack/* .
-          zip -r ${{ env.NAME }}-Resourcepack LICENSE.txt README.md CHANGELOG.md data pack.mcmeta pack.png
-
       - name: Publish on Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -57,7 +52,6 @@ jobs:
           changelog-file: CHANGELOG.md
           files: |
             ${{ env.NAME }}.zip
-            ${{ env.NAME }}-Resourcepack.zip
 
           loaders: datapack
           game-versions: |
