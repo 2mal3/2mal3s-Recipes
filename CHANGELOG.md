@@ -1,3 +1,3 @@
-## Changed
+### Changed
 
-- removed expensive Golden Carrot recipe
+- update to Minecraft 1.21
