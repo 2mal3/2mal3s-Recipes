@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:cornflower"
-    },
-    {
-      "item": "minecraft:bone_meal"
-    }
+    "minecraft:cornflower",
+    "minecraft:bone_meal"
   ],
   "result": {
     "id": "minecraft:cornflower",

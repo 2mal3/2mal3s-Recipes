@@ -3,9 +3,7 @@
   "category": "misc",
   "group": "leather",
   "key": {
-    "#": {
-      "item": "minecraft:rabbit_hide"
-    }
+    "#": "minecraft:rabbit_hide"
   },
   "pattern": [
     "##",

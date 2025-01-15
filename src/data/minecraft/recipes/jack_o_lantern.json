@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "tag": "2re:pumpkin"
-    },
-    {
-      "tag": "2re:light"
-    }
+    "#2re:pumpkin",
+    "#2re:light"
   ],
   "result": {
     "id": "minecraft:jack_o_lantern"

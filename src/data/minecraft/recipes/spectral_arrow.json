@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:arrow"
-    },
-    "X": {
-      "tag": "2re:glowing"
-    }
+    "#": "minecraft:arrow",
+    "X": "#2re:glowing"
   },
   "pattern": [
     " # ",

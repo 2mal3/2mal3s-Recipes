@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:dandelion"
-    },
-    {
-      "item": "minecraft:bone_meal"
-    }
+    "minecraft:dandelion",
+    "minecraft:bone_meal"
   ],
   "result": {
     "id": "minecraft:dandelion",

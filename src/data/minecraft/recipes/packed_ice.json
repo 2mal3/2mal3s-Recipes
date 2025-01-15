@@ -3,18 +3,10 @@
   "category": "building",
   "group": "packed_ice",
   "ingredients": [
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    }
+    "minecraft:ice",
+    "minecraft:ice",
+    "minecraft:ice",
+    "minecraft:ice"
   ],
   "result": {
     "id": "minecraft:packed_ice",

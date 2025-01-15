@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": {
-      "tag": "2re:metal"
-    },
-    "X": {
-      "item": "minecraft:redstone"
-    }
+    "#": "#2re:metal",
+    "X": "minecraft:redstone"
   },
   "pattern": [
     " # ",

@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "chest_minecart",
   "key": {
-    "i": {
-      "item": "minecraft:iron_ingot"
-    },
-    "H": {
-      "item": "minecraft:chest"
-    }
+    "i": "minecraft:iron_ingot",
+    "H": "minecraft:chest"
   },
   "pattern": [
     "iHi",

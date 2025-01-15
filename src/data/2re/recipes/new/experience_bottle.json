@@ -3,12 +3,8 @@
   "category": "equipment",
   "group": "experience_bottle",
   "key": {
-    "#": {
-      "item": "minecraft:sculk"
-    },
-    "G": {
-      "item": "minecraft:glass_bottle"
-    }
+    "#": "minecraft:sculk",
+    "G": "minecraft:glass_bottle"
   },
   "pattern": [
     "###",

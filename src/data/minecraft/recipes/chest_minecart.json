@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "chest_minecart",
   "ingredients": [
-    {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:minecart"
-    }
+    "minecraft:chest",
+    "minecraft:minecart"
   ],
   "result": {
     "id": "minecraft:chest_minecart"

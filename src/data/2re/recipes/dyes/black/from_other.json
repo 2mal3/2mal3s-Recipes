@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "group": "black_dye",
   "ingredients": [
-    {
-      "tag": "2re:black"
-    }
+    "#2re:black"
   ],
   "result": {
     "id": "minecraft:black_dye",

@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "tnt_minecart",
   "key": {
-    "i": {
-      "item": "minecraft:iron_ingot"
-    },
-    "H": {
-      "item": "minecraft:tnt"
-    }
+    "i": "minecraft:iron_ingot",
+    "H": "minecraft:tnt"
   },
   "pattern": [
     "iHi",

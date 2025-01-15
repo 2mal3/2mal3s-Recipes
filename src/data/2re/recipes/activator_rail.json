@@ -3,15 +3,9 @@
   "category": "redstone",
   "group": "activator_rail",
   "key": {
-    "/": {
-      "item": "minecraft:stick"
-    },
-    "R": {
-      "item": "minecraft:rail"
-    },
-    "G": {
-      "item": "minecraft:redstone_torch"
-    }
+    "/": "minecraft:stick",
+    "R": "minecraft:rail",
+    "G": "minecraft:redstone_torch"
   },
   "pattern": [
     "/",

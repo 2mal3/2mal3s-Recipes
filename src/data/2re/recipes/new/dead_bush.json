@@ -1,9 +1,7 @@
 {
   "type": "minecraft:smoking",
   "category": "misc",
-  "ingredient": {
-    "tag": "minecraft:saplings"
-  },
+  "ingredient": "#minecraft:saplings",
   "experience": 0.1,
   "cookingtime": 200,
   "result": {

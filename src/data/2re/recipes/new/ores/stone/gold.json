@@ -3,21 +3,11 @@
   "category": "building",
   "group": "ore",
   "ingredients": [
-    {
-      "item": "minecraft:stone"
-    },
-    {
-      "item": "minecraft:raw_gold"
-    },
-    {
-      "item": "minecraft:raw_gold"
-    },
-    {
-      "item": "minecraft:raw_gold"
-    },
-    {
-      "item": "minecraft:raw_gold"
-    }
+    "minecraft:stone",
+    "minecraft:raw_gold",
+    "minecraft:raw_gold",
+    "minecraft:raw_gold",
+    "minecraft:raw_gold"
   ],
   "result": {
     "id": "minecraft:gold_ore"

@@ -3,21 +3,11 @@
   "category": "building",
   "group": "ore",
   "ingredients": [
-    {
-      "item": "minecraft:deepslate"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:diamond"
-    }
+    "minecraft:deepslate",
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:diamond"
   ],
   "result": {
     "id": "minecraft:deepslate_diamond_ore"

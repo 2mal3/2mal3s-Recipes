@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:warped_fungus"
-    },
-    {
-      "item": "minecraft:fishing_rod"
-    }
+    "minecraft:warped_fungus",
+    "minecraft:fishing_rod"
   ],
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick"

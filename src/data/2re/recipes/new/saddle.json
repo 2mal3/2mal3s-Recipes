@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:leather"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "T": {
-      "item": "minecraft:tripwire_hook"
-    }
+    "#": "minecraft:leather",
+    "S": "minecraft:string",
+    "T": "minecraft:tripwire_hook"
   },
   "pattern": [
     "###",

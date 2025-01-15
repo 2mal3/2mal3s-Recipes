@@ -3,21 +3,11 @@
   "category": "building",
   "group": "ore",
   "ingredients": [
-    {
-      "item": "minecraft:stone"
-    },
-    {
-      "item": "minecraft:raw_iron"
-    },
-    {
-      "item": "minecraft:raw_iron"
-    },
-    {
-      "item": "minecraft:raw_iron"
-    },
-    {
-      "item": "minecraft:raw_iron"
-    }
+    "minecraft:stone",
+    "minecraft:raw_iron",
+    "minecraft:raw_iron",
+    "minecraft:raw_iron",
+    "minecraft:raw_iron"
   ],
   "result": {
     "id": "minecraft:iron_ore"

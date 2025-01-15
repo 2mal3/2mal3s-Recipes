@@ -3,9 +3,7 @@
   "category": "equipment",
   "group": "leather",
   "ingredients": [
-    {
-      "item": "minecraft:leather_chestplate"
-    }
+    "minecraft:leather_chestplate"
   ],
   "result": {
     "id": "minecraft:leather",

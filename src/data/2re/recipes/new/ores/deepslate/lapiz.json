@@ -3,21 +3,11 @@
   "category": "building",
   "group": "ore",
   "ingredients": [
-    {
-      "item": "minecraft:deepslate"
-    },
-    {
-      "item": "minecraft:lapis_block"
-    },
-    {
-      "item": "minecraft:lapis_block"
-    },
-    {
-      "item": "minecraft:lapis_block"
-    },
-    {
-      "item": "minecraft:lapis_block"
-    }
+    "minecraft:deepslate",
+    "minecraft:lapis_block",
+    "minecraft:lapis_block",
+    "minecraft:lapis_block",
+    "minecraft:lapis_block"
   ],
   "result": {
     "id": "minecraft:deepslate_lapis_ore"

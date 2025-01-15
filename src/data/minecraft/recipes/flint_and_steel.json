@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    {
-      "tag": "2re:metal"
-    },
-    {
-      "item": "minecraft:flint"
-    }
+    "#2re:metal",
+    "minecraft:flint"
   ],
   "result": {
     "id": "minecraft:flint_and_steel"

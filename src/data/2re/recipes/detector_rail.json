@@ -3,15 +3,9 @@
   "category": "redstone",
   "group": "detector_rail",
   "key": {
-    "#": {
-      "item": "minecraft:stone_pressure_plate"
-    },
-    "R": {
-      "item": "minecraft:rail"
-    },
-    "I": {
-      "item": "minecraft:redstone"
-    }
+    "#": "minecraft:stone_pressure_plate",
+    "R": "minecraft:rail",
+    "I": "minecraft:redstone"
   },
   "pattern": [
     "#",

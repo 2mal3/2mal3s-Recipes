@@ -16,9 +16,7 @@ for tool, count in tools:
         "category": "equipment",
         "group": f"stone_{tool}",
         "ingredients": [
-            {
-                "item": f"minecraft:wooden_{tool}"
-            }
+            f"minecraft:wooden_{tool}"
         ],
         "result": {
             "id": f"minecraft:stone_{tool}"
@@ -26,8 +24,7 @@ for tool, count in tools:
     }
 
     for _ in range(count):
-        temp = {"tag": "minecraft:stone_tool_materials"}
-        template["ingredients"].append(temp)
+        template["ingredients"].append("#minecraft:stone_tool_materials")
 
     recipe f"2re:new/stone_tools/{tool}" template
 

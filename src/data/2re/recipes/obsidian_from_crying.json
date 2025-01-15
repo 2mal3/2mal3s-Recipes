@@ -1,9 +1,7 @@
 {
   "type": "minecraft:smelting",
   "category": "blocks",
-  "ingredient": {
-    "item": "minecraft:crying_obsidian"
-  },
+  "ingredient": "minecraft:crying_obsidian",
   "experience": 0.1,
   "cookingtime": 300,
   "result": {

@@ -3,18 +3,10 @@
   "category": "building",
   "group": "ore",
   "ingredients": [
-    {
-      "item": "minecraft:stone"
-    },
-    {
-      "item": "minecraft:copper_block"
-    },
-    {
-      "item": "minecraft:copper_block"
-    },
-    {
-      "item": "minecraft:copper_block"
-    }
+    "minecraft:stone",
+    "minecraft:copper_block",
+    "minecraft:copper_block",
+    "minecraft:copper_block"
   ],
   "result": {
     "id": "minecraft:copper_ore"

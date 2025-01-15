@@ -3,9 +3,7 @@
   "category": "building",
   "group": "prismarine",
   "key": {
-    "S": {
-      "item": "minecraft:prismarine_shard"
-    }
+    "S": "minecraft:prismarine_shard"
   },
   "pattern": [
     "SS",

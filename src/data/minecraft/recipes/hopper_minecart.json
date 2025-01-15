@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "hopper_minecart",
   "ingredients": [
-    {
-      "item": "minecraft:hopper"
-    },
-    {
-      "item": "minecraft:minecart"
-    }
+    "minecraft:hopper",
+    "minecraft:minecart"
   ],
   "result": {
     "id": "minecraft:hopper_minecart"

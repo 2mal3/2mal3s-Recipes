@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:smooth_stone"
-    },
-    "I": {
-      "tag": "2re:metal"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "#": "minecraft:smooth_stone",
+    "I": "#2re:metal",
+    "X": "minecraft:furnace"
   },
   "pattern": [
     "III",

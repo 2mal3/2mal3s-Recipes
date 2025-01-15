@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "group": "brown_dye",
   "ingredients": [
-    {
-      "tag": "2re:brown"
-    }
+    "#2re:brown"
   ],
   "result": {
     "id": "minecraft:brown_dye",

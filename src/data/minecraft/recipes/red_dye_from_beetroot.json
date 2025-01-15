@@ -2,11 +2,7 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "group": "red_dye",
-  "ingredient": [
-    {
-      "item": "minecraft:beetroot"
-    }
-  ],
+  "ingredient": "minecraft:beetroot",
   "result": {
     "id": "minecraft:red_dye"
   }

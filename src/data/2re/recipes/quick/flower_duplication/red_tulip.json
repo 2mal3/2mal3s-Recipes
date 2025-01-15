@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:red_tulip"
-    },
-    {
-      "item": "minecraft:bone_meal"
-    }
+    "minecraft:red_tulip",
+    "minecraft:bone_meal"
   ],
   "result": {
     "id": "minecraft:red_tulip",

@@ -31,9 +31,7 @@ for type in wood_types:
     for result in results:
         recipe f"{prefix}/{result[0]}" {
             "type": "minecraft:stonecutting",
-            "ingredient": {
-                "tag": f"minecraft:{type}_logs"
-            },
+            "ingredient": f"#minecraft:{type}_logs",
             "result": {
                 "id": f"minecraft:{type}_{result[0]}",
                 "count": result[1]
@@ -42,9 +40,7 @@ for type in wood_types:
 
     recipe f"{prefix}/log" {
         "type": "minecraft:stonecutting",
-        "ingredient": {
-            "item": f"minecraft:{type}_wood"
-        },
+        "ingredient": f"minecraft:{type}_wood",
         "result": {
             "id": f"minecraft:{type}_log",
             "count": 1

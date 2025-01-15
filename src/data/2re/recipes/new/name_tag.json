@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    {
-      "item": "minecraft:paper"
-    },
-    {
-      "item": "minecraft:paper"
-    },
-    {
-      "item": "minecraft:string"
-    }
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:string"
   ],
   "result": {
     "id": "minecraft:name_tag",

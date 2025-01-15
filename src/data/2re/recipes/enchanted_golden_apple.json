@@ -7,15 +7,9 @@
     "GGG"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:apple"
-    },
-    "G": {
-      "item": "minecraft:gold_block"
-    },
-    "N": {
-      "item": "minecraft:nether_star"
-    }
+    "A": "minecraft:apple",
+    "G": "minecraft:gold_block",
+    "N": "minecraft:nether_star"
   },
   "result": {
     "id": "minecraft:enchanted_golden_apple",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "group": "blue_dye",
   "ingredients": [
-    {
-      "tag": "2re:blue"
-    }
+    "#2re:blue"
   ],
   "result": {
     "id": "minecraft:blue_dye",

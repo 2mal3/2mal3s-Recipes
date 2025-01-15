@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    },
-    "X": {
-      "tag": "2re:jukebox_core"
-    }
+    "#": "#minecraft:planks",
+    "X": "#2re:jukebox_core"
   },
-  "pattern": ["###", "#X#", "###"],
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "result": {
     "id": "minecraft:jukebox"
   }

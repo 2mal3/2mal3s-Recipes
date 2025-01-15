@@ -55,21 +55,13 @@ for name, recipe in vanilla_recipes.items():
 
         recipe name modified_recipe
 
-    # Re-dye wool from every color
-    elif name.endswith("_wool"):
-        modified_recipe["ingredients"][1] = {
-            "tag": "minecraft:wool"
-        }
-
-        recipe name modified_recipe
-
     # Hanging Signs with Planks
     elif name.endswith("_hanging_sign"):
         modified_recipe["result"]["count"] = 3
 
-        item_name = modified_recipe["key"]["#"]["item"]
+        item_name = modified_recipe["key"]["#"]
         item_name = item_name.replace("stripped_", "")
         item_name = item_name.replace("log", "planks")
-        modified_recipe["key"]["#"]["item"] = item_name
+        modified_recipe["key"]["#"] = item_name
 
         recipe name modified_recipe

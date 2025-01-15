@@ -2,9 +2,7 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "group": "gold_ingot",
-  "ingredient": {
-    "tag": "minecraft:gold_ores"
-  },
+  "ingredient": "#minecraft:gold_ores",
   "experience": 1.0,
   "cookingtime": 200,
   "result": {

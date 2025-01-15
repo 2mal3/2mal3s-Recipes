@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "group": "red_dye",
   "ingredients": [
-    {
-      "item": "minecraft:orange_dye"
-    },
-    {
-      "item": "minecraft:black_dye"
-    }
+    "minecraft:orange_dye",
+    "minecraft:black_dye"
   ],
   "result": {
     "id": "minecraft:red_dye",

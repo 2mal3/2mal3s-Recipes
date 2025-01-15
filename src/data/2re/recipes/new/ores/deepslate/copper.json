@@ -3,18 +3,10 @@
   "category": "building",
   "group": "ore",
   "ingredients": [
-    {
-      "item": "minecraft:deepslate"
-    },
-    {
-      "item": "minecraft:copper_block"
-    },
-    {
-      "item": "minecraft:copper_block"
-    },
-    {
-      "item": "minecraft:copper_block"
-    }
+    "minecraft:deepslate",
+    "minecraft:copper_block",
+    "minecraft:copper_block",
+    "minecraft:copper_block"
   ],
   "result": {
     "id": "minecraft:deepslate_copper_ore"

@@ -3,12 +3,8 @@
   "category": "building",
   "group": "ore",
   "ingredients": [
-    {
-      "item": "minecraft:obsidian"
-    },
-    {
-      "item": "minecraft:netherite_scrap"
-    }
+    "minecraft:obsidian",
+    "minecraft:netherite_scrap"
   ],
   "result": {
     "id": "minecraft:ancient_debris"

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": {
-      "tag": "2re:metal"
-    },
-    "#": {
-      "tag": "2re:polished_stone"
-    }
+    "I": "#2re:metal",
+    "#": "#2re:polished_stone"
   },
   "pattern": [
     " I ",

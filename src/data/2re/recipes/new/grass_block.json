@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:short_grass"
-    },
-    {
-      "item": "minecraft:dirt"
-    }
+    "minecraft:short_grass",
+    "minecraft:dirt"
   ],
   "result": {
     "id": "minecraft:grass_block",

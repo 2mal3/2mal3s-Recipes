@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "hopper_minecart",
   "key": {
-    "i": {
-      "item": "minecraft:iron_ingot"
-    },
-    "H": {
-      "item": "minecraft:hopper"
-    }
+    "i": "minecraft:iron_ingot",
+    "H": "minecraft:hopper"
   },
   "pattern": [
     "iHi",

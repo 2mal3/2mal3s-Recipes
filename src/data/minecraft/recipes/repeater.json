@@ -3,15 +3,9 @@
   "category": "redstone",
   "group": "repeater",
   "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
-    },
-    "X": {
-      "item": "minecraft:redstone"
-    },
-    "I": {
-      "tag": "2re:polished_stone"
-    }
+    "#": "minecraft:redstone_torch",
+    "X": "minecraft:redstone",
+    "I": "#2re:polished_stone"
   },
   "pattern": [
     "#X#",

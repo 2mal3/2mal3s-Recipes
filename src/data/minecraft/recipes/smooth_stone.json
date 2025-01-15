@@ -1,9 +1,7 @@
 {
   "type": "smelting",
   "category": "blocks",
-  "ingredient": {
-    "tag": "2re:polished_stone"
-  },
+  "ingredient": "#2re:polished_stone",
   "experience": 0.1,
   "cookingtime": 200,
   "result": {

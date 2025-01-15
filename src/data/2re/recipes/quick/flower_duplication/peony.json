@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:peony"
-    },
-    {
-      "item": "minecraft:bone_meal"
-    }
+    "minecraft:peony",
+    "minecraft:bone_meal"
   ],
   "result": {
     "id": "minecraft:peony",

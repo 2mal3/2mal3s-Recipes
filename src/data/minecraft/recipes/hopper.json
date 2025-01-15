@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "i": {
-      "tag": "2re:metal"
-    },
-    "C": {
-      "item": "minecraft:chest"
-    }
+    "i": "#2re:metal",
+    "C": "minecraft:chest"
   },
   "pattern": [
     "i i",

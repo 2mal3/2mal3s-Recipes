@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:oxeye_daisy"
-    },
-    {
-      "item": "minecraft:bone_meal"
-    }
+    "minecraft:oxeye_daisy",
+    "minecraft:bone_meal"
   ],
   "result": {
     "id": "minecraft:oxeye_daisy",

@@ -3,9 +3,7 @@
   "category": "equipment",
   "group": "leather",
   "ingredients": [
-    {
-      "item": "minecraft:leather_horse_armor"
-    }
+    "minecraft:leather_horse_armor"
   ],
   "result": {
     "id": "minecraft:leather",

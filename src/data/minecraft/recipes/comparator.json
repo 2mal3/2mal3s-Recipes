@@ -2,15 +2,9 @@
   "type": "crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
-    },
-    "X": {
-      "item": "minecraft:quartz"
-    },
-    "I": {
-      "tag": "2re:polished_stone"
-    }
+    "#": "minecraft:redstone_torch",
+    "X": "minecraft:quartz",
+    "I": "#2re:polished_stone"
   },
   "pattern": [
     " # ",

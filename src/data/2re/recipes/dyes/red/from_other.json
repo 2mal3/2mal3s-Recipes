@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "group": "red_dye",
   "ingredients": [
-    {
-      "tag": "2re:red"
-    }
+    "#2re:red"
   ],
   "result": {
     "id": "minecraft:red_dye",

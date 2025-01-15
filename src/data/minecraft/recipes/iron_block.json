@@ -3,9 +3,7 @@
   "category": "building",
   "group": "iron_block",
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "minecraft:iron_ingot"
   },
   "pattern": [
     "###",

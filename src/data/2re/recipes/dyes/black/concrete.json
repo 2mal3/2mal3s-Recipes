@@ -1,12 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": {
-      "tag": "2re:concrete"
-    },
-    "B": {
-      "item": "minecraft:black_dye"
-    }
+    "#": "#2re:concrete",
+    "B": "minecraft:black_dye"
   },
   "pattern": [
     "###",

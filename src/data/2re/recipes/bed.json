@@ -3,12 +3,8 @@
   "category": "building",
   "group": "bed",
   "key": {
-    "#": {
-      "tag": "minecraft:wool"
-    },
-    "X": {
-      "tag": "minecraft:planks"
-    }
+    "#": "#minecraft:wool",
+    "X": "#minecraft:planks"
   },
   "pattern": [
     "###",

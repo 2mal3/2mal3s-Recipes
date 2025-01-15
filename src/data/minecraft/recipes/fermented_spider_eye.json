@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:spider_eye"
-    },
-    {
-      "tag": "2re:mushrooms"
-    },
-    {
-      "item": "minecraft:sugar"
-    }
+    "minecraft:spider_eye",
+    "#2re:mushrooms",
+    "minecraft:sugar"
   ],
   "result": {
     "id": "minecraft:fermented_spider_eye"

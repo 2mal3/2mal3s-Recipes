@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:prismarine_crystals"
-    },
-    "T": {
-      "item": "minecraft:trident"
-    }
+    "#": "minecraft:prismarine_crystals",
+    "T": "minecraft:trident"
   },
   "result": {
     "id": "minecraft:trident",

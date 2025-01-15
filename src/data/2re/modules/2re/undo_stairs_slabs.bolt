@@ -17,9 +17,7 @@ for name, recipe in vanilla_recipes.items():
             "category": "building",
             "group": "undo_stairs",
             "key": {
-                "#": {
-                    "item": f"{recipe.data['result']['id']}"
-                }
+                "#": f"{recipe.data['result']['id']}"
             },
             "pattern": [
                 "##",
@@ -37,9 +35,7 @@ for name, recipe in vanilla_recipes.items():
             "category": "building",
             "group": "undo_slab",
             "key": {
-                "#": {
-                    "item": f"{recipe.data['result']['id']}"
-                }
+                "#": f"{recipe.data['result']['id']}"
             },
             "pattern": [
                 "##"

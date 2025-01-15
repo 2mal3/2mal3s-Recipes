@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "furnace_minecart",
   "ingredients": [
-    {
-      "item": "minecraft:furnace"
-    },
-    {
-      "item": "minecraft:minecart"
-    }
+    "minecraft:furnace",
+    "minecraft:minecart"
   ],
   "result": {
     "id": "minecraft:furnace_minecart"

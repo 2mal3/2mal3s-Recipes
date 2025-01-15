@@ -3,9 +3,7 @@
   "category": "equipment",
   "group": "map",
   "ingredients": [
-    {
-      "item": "minecraft:filled_map"
-    }
+    "minecraft:filled_map"
   ],
   "result": {
     "id": "minecraft:map",

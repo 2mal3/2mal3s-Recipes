@@ -3,9 +3,7 @@
   "category": "misc",
   "group": "iron_nugget",
   "ingredients": [
-    {
-      "item": "minecraft:iron_ingot"
-    }
+    "minecraft:iron_ingot"
   ],
   "result": {
     "id": "minecraft:iron_nugget",

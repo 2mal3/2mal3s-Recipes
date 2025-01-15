@@ -2,21 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "~": {
-      "item": "minecraft:string"
-    },
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "\u0026": {
-      "tag": "2re:metal"
-    },
-    "$": {
-      "item": "minecraft:tripwire_hook"
-    }
+    "~": "minecraft:string",
+    "#": "minecraft:stick",
+    "&": "#2re:metal",
+    "$": "minecraft:tripwire_hook"
   },
   "pattern": [
-    "#\u0026#",
+    "#&#",
     "~$~",
     " # "
   ],

@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "tnt_minecart",
   "ingredients": [
-    {
-      "item": "minecraft:tnt"
-    },
-    {
-      "item": "minecraft:minecart"
-    }
+    "minecraft:tnt",
+    "minecraft:minecart"
   ],
   "result": {
     "id": "minecraft:tnt_minecart"

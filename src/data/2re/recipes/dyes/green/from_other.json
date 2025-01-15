@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "group": "green_dye",
   "ingredients": [
-    {
-      "tag": "2re:green"
-    }
+    "#2re:green"
   ],
   "result": {
     "id": "minecraft:green_dye",

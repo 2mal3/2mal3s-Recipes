@@ -3,9 +3,7 @@
   "category": "equipment",
   "group": "leather",
   "ingredients": [
-    {
-      "item": "minecraft:leather_leggings"
-    }
+    "minecraft:leather_leggings"
   ],
   "result": {
     "id": "minecraft:leather",

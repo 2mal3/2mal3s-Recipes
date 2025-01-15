@@ -3,15 +3,9 @@
   "category": "redstone",
   "group": "activator_rail",
   "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "tag": "2re:metal"
-    }
+    "#": "minecraft:redstone_torch",
+    "S": "minecraft:stick",
+    "X": "#2re:metal"
   },
   "pattern": [
     "XSX",

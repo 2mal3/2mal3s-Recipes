@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "category": "building",
   "key": {
-    "S": {
-      "item": "minecraft:prismarine"
-    },
-    "I": {
-      "item": "minecraft:ink_sac"
-    }
+    "S": "minecraft:prismarine",
+    "I": "minecraft:ink_sac"
   },
   "pattern": [
     "SSS",

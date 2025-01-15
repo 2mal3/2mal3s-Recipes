@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
-    },
-    "D": {
-      "item": "minecraft:andesite"
-    }
+    "#": "minecraft:cobblestone",
+    "D": "minecraft:andesite"
   },
   "pattern": [
     "#D",

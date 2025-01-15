@@ -4,12 +4,8 @@
   "group": "coral_blocks",
   "key": {
     "#": [
-      {
-        "item": "minecraft:fire_coral"
-      },
-      {
-        "item": "minecraft:fire_coral_fan"
-      }
+      "minecraft:fire_coral",
+      "minecraft:fire_coral_fan"
     ]
   },
   "pattern": [

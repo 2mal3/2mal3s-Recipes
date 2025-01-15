@@ -4,12 +4,8 @@
   "group": "coral_blocks",
   "key": {
     "#": [
-      {
-        "item": "minecraft:bubble_coral"
-      },
-      {
-        "item": "minecraft:bubble_coral_fan"
-      }
+      "minecraft:bubble_coral",
+      "minecraft:bubble_coral_fan"
     ]
   },
   "pattern": [

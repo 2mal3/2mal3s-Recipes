@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": {
-      "item": "minecraft:beehive"
-    },
-    "H": {
-      "item": "minecraft:honeycomb"
-    }
+    "B": "minecraft:beehive",
+    "H": "minecraft:honeycomb"
   },
   "pattern": [
     "HHH",

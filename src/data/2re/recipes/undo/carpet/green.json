@@ -3,9 +3,7 @@
   "category": "building",
   "group": "wool_from_carpet",
   "key": {
-    "#": {
-      "item": "minecraft:green_carpet"
-    }
+    "#": "minecraft:green_carpet"
   },
   "pattern": [
     "##",

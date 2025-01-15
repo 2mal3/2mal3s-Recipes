@@ -4,12 +4,8 @@
   "group": "coral_blocks",
   "key": {
     "#": [
-      {
-        "item": "minecraft:horn_coral"
-      },
-      {
-        "item": "minecraft:horn_coral_fan"
-      }
+      "minecraft:horn_coral",
+      "minecraft:horn_coral_fan"
     ]
   },
   "pattern": [

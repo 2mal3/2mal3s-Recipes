@@ -3,15 +3,9 @@
   "category": "redstone",
   "group": "dispenser",
   "key": {
-    "/": {
-      "item": "minecraft:stick"
-    },
-    "S": {
-      "item": "minecraft:string"
-    },
-    "D": {
-      "item": "minecraft:dropper"
-    }
+    "/": "minecraft:stick",
+    "S": "minecraft:string",
+    "D": "minecraft:dropper"
   },
   "pattern": [
     " /S",
