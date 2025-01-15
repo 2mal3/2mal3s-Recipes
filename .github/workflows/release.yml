@@ -56,3 +56,4 @@ jobs:
           loaders: datapack
           game-versions: |
             1.21.0
+            1.21.1
