@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 env:
-  NAME: '2mal3s-Recipes'
-  MODRINTH_ID: 'hIlFLwrl'
+  NAME: "2mal3s-Recipes"
+  MODRINTH_ID: "hIlFLwrl"
 
 jobs:
   release:
@@ -55,5 +55,4 @@ jobs:
 
           loaders: datapack
           game-versions: |
-            1.21.0
-            1.21.1
+            1.21.4

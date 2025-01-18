@@ -1,0 +1,51 @@
+
+from beet.contrib.vanilla import Vanilla
+
+
+tools = [
+    ("pickaxe", 3),
+    ("shovel", 1),
+    ("hoe", 2),
+    ("axe", 3),
+    ("sword", 2)
+]
+
+
+for tool, count in tools:
+    template = {
+        "type": "minecraft:crafting_shapeless",
+        "category": "equipment",
+        "group": f"stone_{tool}",
+        "ingredients": [
+            f"minecraft:wooden_{tool}"
+        ],
+        "result": {
+            "id": f"minecraft:stone_{tool}"
+        }
+    }
+
+    for _ in range(count):
+        template["ingredients"].append("#minecraft:stone_tool_materials")
+
+    recipe f"2re:new/stone_tools/{tool}" template
+
+
+def fake_lambda_1(e):
+    return f"minecraft:stone_{e[0]}"
+
+def fake_lambda_2(e):
+    return f"stone_{e[0]}"
+
+
+vanilla = ctx.inject(Vanilla)
+vanilla_recipes = vanilla.releases[ctx.minecraft_version].data.recipes
+for name, recipe in vanilla_recipes.items():
+    if name not in list(map(fake_lambda_1, tools)):
+        continue
+
+    modified_recipe = recipe.data
+    for tool in list(map(fake_lambda_2, tools)):
+        if name == f"minecraft:{tool}":
+            modified_recipe["group"] = tool
+
+    recipe name modified_recipe
