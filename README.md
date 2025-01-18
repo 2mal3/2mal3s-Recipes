@@ -1,6 +1,6 @@
 # 2mal3s-Recipes
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/2mal3/2mal3s-Recipes?style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/2mal3/2mal3s-Recipes/total?style=flat-square) ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.0-orange?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/2mal3/2mal3s-Recipes?style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/2mal3/2mal3s-Recipes/total?style=flat-square) ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.4-orange?style=flat-square)
 
 The 2mal3's Recipes datapack adds, changes, fixes and upgrades over 400 different, well considered recipes to improve the overall game experience while still keeping the vanilla feel. Unlike other datapacks, it doesn't add overpowered or unbalanced recipes for like Totems or Elytras that ruin the balance of the game, but only makes subtle changes that won't disrupt on the gameplay. In addition, all recipes are deeply integrated into the recipe book with groups and advancements, so that you do not have to remember any recipes and automatically learn about them when you have the necessary resources.
 
@@ -25,7 +25,7 @@ The 2mal3's Recipes datapack adds, changes, fixes and upgrades over 400 differen
 
 ## Technical Notes
 
-- **ONLY** the latest version of the datapack for Fabric and Vanilla 1.21.0 is supported
+- **ONLY** the latest version of the datapack for Fabric and Vanilla 1.21.4 is supported
 - bug reports and suggestions are **ONLY** accepted on [GitHub](https://github.com/2mal3/2mal3s-Recipes/issues)
 - compatible with other datapacks that do not add or change too many recipes themselves
 - to uninstall, simply delete the datapack file

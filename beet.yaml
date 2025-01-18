@@ -3,13 +3,13 @@ id: 2re
 name: 2mal3s Recipes
 description: "Adds, changes fixes and upgrades 450+ recipes to improve the overall game experience while still keeping the vanilla feel."
 author: 2mal3
-version: "v1.10.2"
+version: "v1.11.0"
 
 output: "build"
 
 data_pack:
   name: 2mal3s-Recipes
-  description: "v1.10.2"
+  description: "v1.11.0"
   load:
     - "src"
     - pack.png: "pack.png"
@@ -28,6 +28,7 @@ meta:
       - 2re:2re/wood_cut
       - 2re:2re/undo_stairs_slabs
       - 2re:2re/stone_tools
+      - 2re:2re/iron_alternative
 
   installation_advancement:
     icon:
