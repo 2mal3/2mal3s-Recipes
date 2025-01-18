@@ -2,41 +2,30 @@ from beet import Context, Advancement
 
 
 def beet_default(ctx: Context):
-    advancements = get_advancements(ctx)
-    create_advancements(ctx, advancements)
+    ingredient_recipe_relations = get_ingredient_recipe_relations(ctx)
+    create_advancements_from_data(ctx, ingredient_recipe_relations)
 
 
-def create_advancements(ctx: Context, data: dict):
-    for ingredient, paths in data.items():
+def create_advancements_from_data(ctx: Context, data: dict[str, list[str]]):
+    for ingredient, recipe_paths in data.items():
         name = ingredient.split(":")[1]
         advancement = {
             "parent": "minecraft:recipes/root",
             "criteria": {
                 "requirement": {
                     "trigger": "minecraft:inventory_changed",
-                    "conditions": {"items": [{}]},
+                    "conditions": {"items": [{"items": ingredient}]},
                 }
             },
-            "rewards": {"recipes": paths},
+            "rewards": {"recipes": recipe_paths},
         }
-
-        # Normal advancement
-        if not ingredient.startswith("#"):
-            advancement["criteria"]["requirement"]["conditions"]["items"][0][
-                "items"
-            ] = [ingredient]
-        # Tag
-        else:
-            advancement["criteria"]["requirement"]["conditions"]["items"][0][
-                "tag"
-            ] = ingredient[1:]
 
         ctx.data.advancements[f"2re:recipes/{name}"] = Advancement(advancement)
 
 
-def get_advancements(ctx: Context) -> dict:
+def get_ingredient_recipe_relations(ctx: Context) -> dict:
     """Get all new recipe results with their ingredients"""
-    advancements = {}
+    relations = {}
 
     recipes = ctx.data.recipes
     for recipe in recipes.match("2re:*"):
@@ -44,67 +33,41 @@ def get_advancements(ctx: Context) -> dict:
 
         ingredients = []
         if content["type"] == "minecraft:crafting_shaped":
-            ingredients = get_crafting_shaped_ingredients(content["key"])
-        if content["type"] == "minecraft:crafting_shapeless":
-            ingredients = get_ingredient(content["ingredients"])
-        if content["type"] in [
+            ingredients = get_shaped_crafting_shaped_ingredients(content["key"])
+        elif content["type"] == "minecraft:crafting_shapeless":
+            ingredients = get_ingredients_from_ingredient_object(content["ingredients"])
+        elif content["type"] in [
             "minecraft:blasting",
             "minecraft:smelting",
             "minecraft:smoking",
             "minecraft:campfire_cooking",
             "minecraft:stonecutting",
         ]:
-            ingredients = get_ingredient(content["ingredient"])
+            ingredients = get_ingredients_from_ingredient_object(content["ingredient"])
         ingredients = remove_duplicates(ingredients)
 
-        ingredients.append(get_result(content["result"]))
-
         for ingredient in ingredients:
-            if ingredient not in advancements:
-                advancements[ingredient] = []
-            advancements[ingredient].append(recipe)
+            if ingredient not in relations:
+                relations[ingredient] = []
+            relations[ingredient].append(recipe)
 
-    return advancements
-
-
-def get_result(part: dict | list) -> str:
-    result = ""
-
-    if type(part) == dict:
-        result = part["item"]
-    if type(part) == str:
-        result = part
-
-    return result
+    return relations
 
 
-def get_ingredient(part: dict | list) -> list:
+def get_shaped_crafting_shaped_ingredients(keys: dict[str, list[str] | str]) -> list[str]:
     ingredients = []
-
-    if type(part) == dict:
-        ingredient = part.get("item")
-        if ingredient:
-            ingredients.append(ingredient)
-
-        ingredient = part.get("tag")
-        if ingredient:
-            ingredients.append("#" + ingredient)
-
-    if type(part) == list:
-        for element in part:
-            ingredient = get_ingredient(element)
-            ingredients += ingredient
-
+    for ingredient_object in keys.values():
+        ingredients += get_ingredients_from_ingredient_object(ingredient_object)
     return ingredients
 
 
-def get_crafting_shaped_ingredients(keys: dict) -> list:
-    ingredients = []
+def get_ingredients_from_ingredient_object(ingredient_object: str | list[str]) -> list[str]:
+    if isinstance(ingredient_object, str):
+        return [ingredient_object]
+    elif isinstance(ingredient_object, list):
+        return ingredient_object
 
-    for element in keys.values():
-        ingredients += get_ingredient(element)
-
-    return ingredients
+    raise ValueError("Invalid ingredient object")
 
 
 def remove_duplicates(list_: list) -> list:

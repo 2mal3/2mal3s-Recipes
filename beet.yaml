@@ -17,6 +17,7 @@ data_pack:
 pipeline:
   - mecha
   - plugins.installation_advancement
+  - plugins.generate_recipe_advancements
 require:
   - bolt
 
